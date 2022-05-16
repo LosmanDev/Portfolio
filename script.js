@@ -1,1 +1,4 @@
-console.log(window.screen.width);
+//Collapse existing card
+$(".port-item").click(function () {
+  $(".collapse").collapse("hide");
+});

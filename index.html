@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -18,10 +18,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>LosmanDev Portfolio</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container css_transition">
       <header id="main-header">
         <div class="row no-gutters">
           <div class="col-lg-4 col-md-5">
@@ -31,7 +32,7 @@
             <div class="d-flex flex-column">
               <div class="p-5 bg-dark text-white">
                 <div class="d-flex flex-row align-items-center">
-                  <h1 class="display-4 mr-4 my_name">Liban Osman</h1>
+                  <h1 class="display-4 mr-4 font_family">Liban Osman</h1>
                   <div>
                     <a
                       href="https://github.com/LosmanDev"
@@ -57,12 +58,14 @@
                 </div>
               </div>
 
-              <div class="p-4 bg-black fullstack-border">
-                Experienced Full Stack Web Developer
-                <i
-                  style="vertical-align: middle"
-                  class="fa-solid fa-code ml-1"
-                ></i>
+              <div class="p-4 bg-black fullstack-border font_family">
+                <p class="font-weight-bold">
+                  Experienced Full Stack Web Developer
+                  <i
+                    style="vertical-align: middle"
+                    class="fa-solid fa-code ml-1"
+                  ></i>
+                </p>
               </div>
 
               <div>
@@ -75,7 +78,7 @@
                     data-target="#home"
                   >
                     <i class="fas fa-home fa-2x d-block"></i>
-                    <span class="d-none d-sm-block">Home</span>
+                    <span class="d-none d-sm-block font_family">Home</span>
                   </div>
                   <div
                     class="port-item p-4 bg-black nav-icons"
@@ -83,15 +86,15 @@
                     data-target="#projects"
                   >
                     <i class="fa-solid fa-code fa-2x d-block"></i>
-                    <span class="d-none d-sm-block">Projects</span>
+                    <span class="d-none d-sm-block font_family">Projects</span>
                   </div>
                   <div
-                    class="port-item p-4 p bg-black"
+                    class="port-item p-4 bg-black"
                     data-toggle="collapse"
                     data-target="#contact"
                   >
                     <i class="fa-solid fa-envelope fa-2x d-block"></i>
-                    <span class="d-none d-sm-block">Contact</span>
+                    <span class="d-none d-sm-block font_family">Contact</span>
                   </div>
                 </div>
               </div>
@@ -103,24 +106,20 @@
       <!-- HOME -->
       <div id="home" class="collapse show">
         <div class="bg-black card card-body py-5">
-          <h2>Welcome To My Page</h2>
-          <p class="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            voluptas minima quasi fuga! Velit temporibus, odit corporis
-            assumenda magni dolorum voluptate hic vel, nihil illo aut dolores
-            reiciendis explicabo placeat!
+          <h2 class="text-center font_family font-weight-bold">Welcome!</h2>
+          <p class="lead font_family">
+            I’m a Full Stack Web Developer with a drive to learn and progress in
+            this ever-expanding field. Ready to digitalize ideas into user
+            friendly, responsive, and elegant projects/solutions.
           </p>
         </div>
         <div class="card card-body py-5">
-          <h3>My Skills</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-            ex dolorum fugit aliquam. Temporibus mollitia, id dolorum
-            necessitatibus, possimus vel aspernatur commodi fugit similique
-            voluptatem rem repellendus distinctio qui illo!
-          </p>
-          <hr />
-          <div class="row">
+          <h2 class="text-center font_family font-weight-bold">
+            Professional Skills
+          </h2>
+
+          <hr class="mb-5" />
+          <div class="row text-center">
             <div class="col">
               <i class="fa-brands fa-html5 skills-logo"></i>
               <p class="font-italic font-weight-bold">HTML</p>
@@ -132,11 +131,6 @@
             </div>
 
             <div class="col">
-              <i class="fa-brands fa-js-square skills-logo"></i>
-              <p class="font-italic font-weight-bold">JavaScript</p>
-            </div>
-
-            <div class="col">
               <i class="fa-brands fa-sass skills-logo"></i>
               <p class="font-italic font-weight-bold">SASS</p>
             </div>
@@ -144,6 +138,11 @@
             <div class="col">
               <i class="fa-brands fa-bootstrap skills-logo"></i>
               <p class="font-italic font-weight-bold">BootStrap</p>
+            </div>
+
+            <div class="col">
+              <i class="fa-brands fa-js-square skills-logo"></i>
+              <p class="font-italic font-weight-bold">JavaScript</p>
             </div>
 
             <div class="col">
@@ -162,15 +161,81 @@
             </div>
 
             <div class="col">
-              <i class="fa-solid fa-terminal skills-logo"></i>
-              <p class="font-italic font-weight-bold">Command Line</p>
-            </div>
-
-            <div class="col">
               <i class="fa-brands fa-git-alt skills-logo"></i>
               <p class="font-italic font-weight-bold">Git</p>
             </div>
+            <div class="col">
+              <i class="fa-solid fa-terminal skills-logo"></i>
+              <p class="font-italic font-weight-bold">Command Line</p>
+            </div>
           </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div id="projects" class="collapse">
+        <div class="bg-black card card-body py-5">
+          <h2 class="font_family text-center font-weight-bold">My Projects</h2>
+          <p class="lead font_family"></p>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact" class="collapse">
+        <div class="bg-black card card-body py-5">
+          <h2 class="font_family text-center font-weight-bold">Contact</h2>
+        </div>
+        <div class="card card-body py-5">
+          <h3 class="mb-3">Get In Touch</h3>
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-black text-white">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control bg-black text-white"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-black text-white">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control bg-black text-white"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-black text-white">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  type="text"
+                  class="form-control bg-black text-white"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-block bg-black btn-lg"
+            />
+          </form>
         </div>
       </div>
 
@@ -200,7 +265,7 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>

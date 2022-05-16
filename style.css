@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 
-.my_name {
+.font_family {
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -46,4 +46,20 @@ body {
 
 .skills-logo {
   font-size: 40px;
+}
+
+.css_transition {
+  animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
