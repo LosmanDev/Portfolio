@@ -13,3 +13,5 @@ $(document).on("click", '[data-toggle="lightbox"]', function (e) {
 $("#myModal").on("shown.bs.modal", function () {
   $("#myInput").trigger("focus");
 });
+
+AOS.init();
