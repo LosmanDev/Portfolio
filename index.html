@@ -18,6 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>LosmanDev Portfolio</title>
   </head>
@@ -26,7 +32,7 @@
       <header id="main-header">
         <div class="row no-gutters">
           <div class="col-lg-4 col-md-5">
-            <img src="../Porfolio/images/IMG-1329.png" alt="" />
+            <img src="../Porfolio/images/IMG-1329.jpg" alt="" />
           </div>
           <div class="col-lg-8 col-md-8">
             <div class="d-flex flex-column">
@@ -176,64 +182,674 @@
       <!-- PROJECTS -->
       <div id="projects" class="collapse">
         <div class="bg-black card card-body py-5">
-          <h2 class="font_family text-center font-weight-bold">My Projects</h2>
+          <h2 class="font_family text-center font-weight-bold mb-5">
+            My Projects
+          </h2>
           <div class="row">
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src="https://media.giphy.com/media/34q69mnNhC6OTgcD7N/giphy.gif"
-                alt="Waldo Foundation"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/34q69mnNhC6OTgcD7N/giphy.gif"
+                data-toggle="lightbox"
+              >
+                <img
+                  class="rounded img-gif mb-3"
+                  src="https://media.giphy.com/media/34q69mnNhC6OTgcD7N/giphy.gif"
+                  alt="Waldo Foundation"
+                />
+              </a>
+
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://www.waldofoundation.org/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://github.com/LosmanDev/WaldoFoundation"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      Waldo Foundation Inc is a Non-Profit Housing Organization
+                      that contacted me to build their website which I obliged
+                      to build free of charge.I built it by customizing and
+                      existing bootstrap template I had to edit i to their needs
+                      with HTML, CSS, Bootstrap & JavaScript. I built an email
+                      message with email.js so clients can use the volunteering
+                      section to contact Waldo Foundation to connect.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src=" https://media.giphy.com/media/saeStkhnnrneWqeh3o/giphy.gif"
-                alt="1 and only staffing llc"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/saeStkhnnrneWqeh3o/giphy.gif"
+                data-toggle="lightbox"
+                ><img
+                  class="rounded img-gif mb-3"
+                  src=" https://media.giphy.com/media/saeStkhnnrneWqeh3o/giphy.gif"
+                  alt="1 and only staffing llc"
+              /></a>
+
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://1andonlystaffingllc.com/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://github.com/LosmanDev/1AndOnlyStaffingLLC"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal2"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal2"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel2"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel2"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      1 and Only Staffing LLC is a Nurse staffing agency based
+                      out in Minnesota. They contacted me to build them a
+                      landing page for their website which I obliged to build
+                      free of charge. I built the website using a bootstrap
+                      template I had to further customize it with HTML, CSS,
+                      BootStrap & Javascript. I also built an email reply system
+                      using email.js so clients can contact them with the form
+                      and further connect with 1 And Only Staffing LLC.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src="https://media.giphy.com/media/htkv5PyQWTVh96CsHs/giphy.gif"
-                alt="Halal Meat"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/htkv5PyQWTVh96CsHs/giphy.gif"
+                data-toggle="lightbox"
+                ><img
+                  class="rounded img-gif mb-3"
+                  src="https://media.giphy.com/media/htkv5PyQWTVh96CsHs/giphy.gif"
+                  alt="Halal Meat"
+              /></a>
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://losmandev.github.io/HalalMeatExpress/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://github.com/LosmanDev/HalalMeatExpress"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal3"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal3"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel3"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel3"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      Halal Meat Express was a mom and pop shop that sold goods,
+                      halal meat & a money transfer service in the city of
+                      Roxbury, MA. They contacted me to build their website
+                      which was my first website ever built. I built this
+                      website from scratch using HTML, CSS, BootStrap & Jquery.
+                      This project was tough for as it was my first but I spent
+                      a lot of time tweaking and debugging all the code day to
+                      day as I was very passionate and excited to build my first
+                      ever project.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src="https://media.giphy.com/media/roT73eoMvlrRs1jV9v/giphy.gif"
-                alt="Todo App"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/kdNCg5r5OHf57YgIty/giphy.gif"
+                data-toggle="lightbox"
+                ><img
+                  class="rounded img-gif mb-3"
+                  src=" https://media.giphy.com/media/kdNCg5r5OHf57YgIty/giphy.gif"
+                  alt="Nomad Energy"
+              /></a>
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://losmandev.github.io/Nomad-Energy/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://github.com/LosmanDev/Nomad-Energy"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal4"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal4"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel4"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel4"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      Nomad Energy is a solar energy company based out in
+                      Garowe,Somalia. I was contacted by a family member to
+                      build this website for them as this is my country of
+                      origin and was happy to help with the project. I built
+                      this website from scratch using HTML, CSS, Bootstrap &
+                      Jquery also did a few graphic designing with gimp photo
+                      editor to hack some photos to be transparent.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src="https://media.giphy.com/media/Adkm1W0zeunARlndp3/giphy.gif"
-                alt="NASA API"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/roT73eoMvlrRs1jV9v/giphy.gif"
+                data-toggle="lightbox"
+                ><img
+                  class="rounded img-gif mb-3"
+                  src="https://media.giphy.com/media/roT73eoMvlrRs1jV9v/giphy.gif"
+                  alt="Todo App"
+              /></a>
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://losmandev.github.io/Simple-Todo-app/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://github.com/LosmanDev/Simple-Todo-app"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal5"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal5"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel5"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel5"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      Simple Todo App was a personal project that I developed to
+                      practice my JavaScript skills. I built this website from
+                      scratch using HTML, CSS, Bootstrap & JavaScript. The key
+                      features for this project was built using the JavaScript
+                      local storage function which can be helpful to save data
+                      to memory as I still use this website to keep track of
+                      everything I need when I go to the grocery store.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src="https://media.giphy.com/media/zkO7kcEUzBCAbXZEKd/giphy.gif"
-                alt="Person Generator API"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/Adkm1W0zeunARlndp3/giphy.gif"
+                data-toggle="lightbox"
+                ><img
+                  class="rounded img-gif mb-3"
+                  src="https://media.giphy.com/media/Adkm1W0zeunARlndp3/giphy.gif"
+                  alt="NASA API"
+              /></a>
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://losmandev.github.io/NASA-Photo-API/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white"
+                role="button"
+                href="https://github.com/LosmanDev/NASA-Photo-API"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal6"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal6"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel6"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel6"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      NASA Photo API is personal project I decided to build to
+                      practice my JavaScript API skills. I built this project
+                      using NASA.gov's api to fetch data and display the data on
+                      my website using HTML, CSS, BootStrap & JavaScript. You
+                      can customize the photo of the day to any day that is
+                      after 1995(Judging by the data its technically 6/20/1995)
+                      which was when NASA started the project.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src="https://media.giphy.com/media/3UevcPXRA5etUEryqJ/giphy.gif"
-                alt="Movie Fight Api"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/zkO7kcEUzBCAbXZEKd/giphy.gif"
+                data-toggle="lightbox"
+                ><img
+                  class="rounded img-gif mb-3"
+                  src="https://media.giphy.com/media/zkO7kcEUzBCAbXZEKd/giphy.gif"
+                  alt="Person Generator API"
+              /></a>
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://losmandev.github.io/Random-Person-Generator-API/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://github.com/LosmanDev/Random-Person-Generator-API"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal7"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal7"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel7"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel7"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      Random Person Generator was a small project I decided to
+                      build for fun to continue to practice my fetch api
+                      JavaScript skills. The API curates random people data
+                      which includes a picture, title, name, age, gender and
+                      city location. I displayed all this data using HTML, CSS,
+                      BootStrap & JavaScript.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <img
-                class="rounded"
-                src=" https://media.giphy.com/media/kdNCg5r5OHf57YgIty/giphy.gif"
-                alt="Nomad Energy"
-              />
+            <div class="col-md-6 text-center mb-3">
+              <a
+                href="https://media.giphy.com/media/3UevcPXRA5etUEryqJ/giphy.gif"
+                data-toggle="lightbox"
+                ><img
+                  class="rounded img-gif mb-3"
+                  src="https://media.giphy.com/media/3UevcPXRA5etUEryqJ/giphy.gif"
+                  alt="Movie Fight Api"
+              /></a>
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://losmandev.github.io/Movie-Fight-API/"
+                >Live Link</a
+              >
+              <a
+                target="blank_"
+                class="btn btn-outline-secondary text-white mr-1"
+                role="button"
+                href="https://github.com/LosmanDev/Movie-Fight-API"
+                >Code</a
+              >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-white"
+                data-toggle="modal"
+                data-target="#exampleModal8"
+              >
+                Read Me
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal8"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel8"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-center bg-modal"
+                        id="exampleModalLabel8"
+                      >
+                        Project Story
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-left bg-modal">
+                      Movie Fight API is a project I built while learning with
+                      Colt Steel's Web Development Bootcamp. The movie Fight API
+                      collected movie data from omdbapi.com that I extracted
+                      using the axios library to display data such as movie
+                      budget, nominations, rating e.tc. I used HTML, CSS, Bulma
+                      & Javascript with the axios library to compare data
+                      between the two movies and use green and yellow background
+                      colors to define the top movie of the two of course green
+                      nominating the winner.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn bg-black"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -323,6 +939,12 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
 
     <script src="script.js"></script>
