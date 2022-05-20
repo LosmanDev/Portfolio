@@ -15,3 +15,22 @@ $("#myModal").on("shown.bs.modal", function () {
 });
 
 AOS.init();
+
+//Emailjs for contact from
+(function () {
+  emailjs.init("YFXqHcA2AkdvH-RME");
+})();
+
+function sendMail(params) {
+  let tempParams = {
+    from_name: document.getElementById("fromName").value,
+    email: document.getElementById("fromEmail").value,
+    message: document.getElementById("msg").value,
+  };
+  emailjs
+    .send("service_n1w0hcr", "template_lngukbq", tempParams)
+    .then(function (res) {
+      console.log("Success", res.status);
+      location.reload();
+    });
+}

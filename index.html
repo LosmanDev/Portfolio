@@ -33,7 +33,7 @@
       <header id="main-header" data-aos="fade-down" data-aos-duration="1500">
         <div class="row no-gutters">
           <div class="col-lg-4 col-md-5">
-            <img src="images/1329.jpg" alt="" />
+            <img src="images/1329.jpg" alt="profile picture" class="rounded" />
           </div>
           <div class="col-lg-8 col-md-8">
             <div class="d-flex flex-column">
@@ -67,11 +67,7 @@
 
               <div class="p-4 bg-black fullstack-border font_family">
                 <p class="font-weight-bold">
-                  Experienced Full Stack Web Developer
-                  <i
-                    style="vertical-align: middle"
-                    class="fa-solid fa-code ml-1"
-                  ></i>
+                  &lt;dev&gt;Full Stack Web Developer&lt;/dev&gt;
                 </p>
               </div>
 
@@ -85,7 +81,7 @@
                     data-target="#home"
                   >
                     <i class="fas fa-home fa-2x d-block"></i>
-                    <span class="d-none d-sm-block font_family">Home</span>
+                    <span class="font_family">Home</span>
                   </div>
 
                   <div
@@ -94,7 +90,7 @@
                     data-target="#projects"
                   >
                     <i class="fa-solid fa-code fa-2x d-block"></i>
-                    <span class="d-none d-sm-block font_family">Projects</span>
+                    <span class="font_family">Projects</span>
                   </div>
                   <div
                     class="port-item p-4 bg-black"
@@ -102,7 +98,7 @@
                     data-target="#contact"
                   >
                     <i class="fa-solid fa-envelope fa-2x d-block"></i>
-                    <span class="d-none d-sm-block font_family">Contact</span>
+                    <span class="font_family">Contact</span>
                   </div>
                 </div>
               </div>
@@ -118,7 +114,9 @@
           data-aos="fade-down"
           data-aos-duration="2000"
         >
-          <h2 class="text-center font_family font-weight-bold">Welcome!</h2>
+          <h2 class="text-center font_family font-weight-bold">
+            Welcome To My Portfolio!
+          </h2>
           <p class="lead font_family">
             I’m a Full Stack Web Developer with a drive to learn and progress in
             this ever-expanding field. Ready to digitalize ideas into user
@@ -880,6 +878,7 @@
                   </span>
                 </div>
                 <input
+                  id="fromName"
                   type="text"
                   class="form-control bg-black text-white"
                   placeholder="Name"
@@ -890,10 +889,11 @@
               <div class="input-group input-group-lg">
                 <div class="input-group-prepend">
                   <span class="input-group-text bg-black text-white">
-                    <i class="fas fa-envelope"></i>
+                    <i class="fa-solid fa-at"></i>
                   </span>
                 </div>
                 <input
+                  id="fromEmail"
                   type="email"
                   class="form-control bg-black text-white"
                   placeholder="Email"
@@ -908,17 +908,25 @@
                   </span>
                 </div>
                 <textarea
+                  id="msg"
                   type="text"
                   class="form-control bg-black text-white"
                   placeholder="Message"
                 ></textarea>
               </div>
             </div>
-            <input
+            <!-- <input
               type="submit"
               value="Submit"
               class="btn btn-block bg-black btn-lg"
-            />
+            /> -->
+            <button
+              onclick="sendMail()"
+              type="submit"
+              class="btn btn-block bg-black btn-lg"
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>
@@ -927,13 +935,21 @@
       <footer id="main-footer" class="p-5 bg-black text-white">
         <div class="row">
           <div class="col-md-6">
-            <a class="btn btn-outline-light" href="#">
-              <i class="fas fa-cloud"></i> Download Resume
+            <a
+              class="btn btn-outline-light"
+              target="blank_"
+              href="https://fastupload.io/1a08XXhkmhMdKRd"
+            >
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
             </a>
           </div>
         </div>
       </footer>
     </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
