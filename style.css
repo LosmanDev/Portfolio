@@ -52,22 +52,6 @@ body {
   font-size: 40px;
 }
 
-.css_transition {
-  animation: transitionIN 0.75s;
-}
-
-@keyframes transitionIN {
-  from {
-    opacity: 0;
-    transform: rotateX(-10deg);
-  }
-
-  to {
-    opacity: 1;
-    transform: rotateX(0);
-  }
-}
-
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -108,7 +92,7 @@ body {
   }
 
   .full-stack-font {
-    font-size: 13px;
+    font-size: 12.5px;
   }
 }
 
@@ -128,7 +112,7 @@ body {
     margin-right: auto;
   }
   .full-stack-font {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -148,6 +132,83 @@ body {
     margin-right: auto;
   }
   .full-stack-font {
-    font-size: 14px;
+    font-size: 12.5px;
+  }
+}
+.css_transition {
+  animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+/* IMAGES FADE IN  */
+
+.img-fade {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+
+  -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 6s; /* Firefox < 16 */
+  -ms-animation: fadein 6s; /* Internet Explorer */
+  -o-animation: fadein 6s; /* Opera < 12.1 */
+  animation: fadein 6s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
