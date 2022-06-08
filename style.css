@@ -135,6 +135,7 @@ body {
     font-size: 12.5px;
   }
 }
+
 .css_transition {
   animation: transitionIN 0.75s;
 }
