@@ -522,88 +522,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 text-center mb-3">
-              <a
-                href="https://media.giphy.com/media/roT73eoMvlrRs1jV9v/giphy.gif"
-                data-toggle="lightbox"
-                ><img
-                  class="rounded img-gif mb-3"
-                  src="https://media.giphy.com/media/roT73eoMvlrRs1jV9v/giphy.gif"
-                  alt="Todo App"
-              /></a>
-              <a
-                target="blank_"
-                class="btn btn-outline-secondary text-white mr-1"
-                role="button"
-                href="https://losmandev.github.io/Simple-Todo-app/"
-                >Live Link</a
-              >
-              <a
-                target="blank_"
-                class="btn btn-outline-secondary text-white mr-1"
-                role="button"
-                href="https://github.com/LosmanDev/Simple-Todo-app"
-                >Code</a
-              >
-              <!-- Button trigger modal -->
-              <button
-                type="button"
-                class="btn btn-outline-secondary text-white"
-                data-toggle="modal"
-                data-target="#exampleModal5"
-              >
-                Read Me
-              </button>
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal5"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalLabel5"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5
-                        class="modal-title text-center bg-modal"
-                        id="exampleModalLabel5"
-                      >
-                        Project Story
-                      </h5>
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body text-left bg-modal">
-                      Simple Todo App was a personal project that I developed to
-                      practice my JavaScript skills. I built this website from
-                      scratch using HTML, CSS, Bootstrap & JavaScript. The key
-                      features for this project was built using the JavaScript
-                      local storage function which can be helpful to save data
-                      to memory as I still use this website to keep track of
-                      everything I need when I go to the grocery store.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn bg-black"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="col-md-6 text-center mb-3">
               <a
                 href="https://media.giphy.com/media/Adkm1W0zeunARlndp3/giphy.gif"
@@ -686,87 +605,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 text-center mb-3">
-              <a
-                href="https://media.giphy.com/media/zkO7kcEUzBCAbXZEKd/giphy.gif"
-                data-toggle="lightbox"
-                ><img
-                  class="rounded img-gif mb-3"
-                  src="https://media.giphy.com/media/zkO7kcEUzBCAbXZEKd/giphy.gif"
-                  alt="Person Generator API"
-              /></a>
-              <a
-                target="blank_"
-                class="btn btn-outline-secondary text-white mr-1"
-                role="button"
-                href="https://losmandev.github.io/Random-Person-Generator-API/"
-                >Live Link</a
-              >
-              <a
-                target="blank_"
-                class="btn btn-outline-secondary text-white mr-1"
-                role="button"
-                href="https://github.com/LosmanDev/Random-Person-Generator-API"
-                >Code</a
-              >
-              <!-- Button trigger modal -->
-              <button
-                type="button"
-                class="btn btn-outline-secondary text-white"
-                data-toggle="modal"
-                data-target="#exampleModal7"
-              >
-                Read Me
-              </button>
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal7"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalLabel7"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5
-                        class="modal-title text-center bg-modal"
-                        id="exampleModalLabel7"
-                      >
-                        Project Story
-                      </h5>
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body text-left bg-modal">
-                      Random Person Generator was a small project I decided to
-                      build for fun to continue to practice my fetch api
-                      JavaScript skills. The API curates random people data
-                      which includes a picture, title, name, age, gender and
-                      city location. I displayed all this data using HTML, CSS,
-                      BootStrap & JavaScript.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn bg-black"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="col-md-6 text-center mb-3">
               <a
                 href="https://media.giphy.com/media/3UevcPXRA5etUEryqJ/giphy.gif"
@@ -860,7 +699,7 @@
         <div class="bg-black card card-body py-5">
           <h2 class="font_family text-center font-weight-bold">Contact</h2>
         </div>
-        <div class="card card-body py-5">
+        <div id="form-hidden" class="card card-body py-5">
           <h3 class="mb-3">Lets Get In Touch!</h3>
           <form>
             <div class="form-group">
@@ -908,12 +747,8 @@
                 ></textarea>
               </div>
             </div>
-            <!-- <input
-              type="submit"
-              value="Submit"
-              class="btn btn-block bg-black btn-lg"
-            /> -->
             <button
+              id="form-vanish"
               onclick="sendMail()"
               type="submit"
               class="btn btn-block bg-black btn-lg"
