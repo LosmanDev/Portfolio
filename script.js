@@ -17,6 +17,7 @@ $("#myModal").on("shown.bs.modal", function () {
 AOS.init();
 
 //Emailjs for contact from
+
 (function () {
   emailjs.init("YFXqHcA2AkdvH-RME");
 })();
@@ -36,6 +37,7 @@ function sendMail(params) {
 }
 
 // MESSAGE SENT DISCLAIMER FOR FORM
+
 let buttonVanish = document.getElementById("form-vanish");
 let contact_form = document.getElementById("form-hidden");
 
