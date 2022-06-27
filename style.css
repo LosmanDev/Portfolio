@@ -34,6 +34,10 @@ body {
   border-bottom: 3px solid #fff;
 }
 
+.full-stack-font{
+  font-size: 20px;
+}
+
 #main-header .port-item {
   width: 40%;
 }
@@ -81,6 +85,14 @@ body {
   .icon-size{
     font-size: 25px;
   }
+
+  .mobile-font-title{
+    font-size: 15px;
+  }
+
+  .mobile-font-text{
+    font-size: 10px;
+  }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -100,7 +112,7 @@ body {
   }
 
   .full-stack-font {
-    font-size: 12.5px;
+    font-size: 13px;
   }
 
   .name-title{
@@ -110,6 +122,14 @@ body {
 
   .icon-size{
     font-size: 30px;
+  }
+
+  .mobile-font-title{
+    font-size: 18px;
+  }
+
+  .mobile-font-text{
+    font-size: 15px;
   }
 }
 
@@ -157,7 +177,7 @@ body {
     margin-right: auto;
   }
   .full-stack-font {
-    font-size: 12.5px;
+    font-size: 13px;
   }
 
   .name-title{
@@ -166,6 +186,14 @@ body {
 
   .icon-size{
     font-size: 40px;
+  }
+
+  .mobile-font-title{
+    font-size: 20px;
+  }
+
+  .mobile-font-text{
+    font-size: 15px;
   }
 }
 
