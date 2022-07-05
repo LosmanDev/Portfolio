@@ -60,6 +60,7 @@ body {
 .img-mobile{
   width: 150px;
   height: 300px;
+  margin-left: 10px;
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
@@ -70,7 +71,7 @@ body {
     background-size: cover;
   }
   .img-gif {
-    width: 300px;
+    width: 250px;
     height: 180px;
 
     display: block;
@@ -102,6 +103,13 @@ body {
   .img-mobile{
     width: 80px;
     height: 150px;
+  }
+
+  .img-mobile{
+    width: 80px;
+    height: 150px;
+
+    margin-top: 10px;
   }
 }
 
@@ -144,7 +152,9 @@ body {
 
   .img-mobile{
     width: 100px;
-    height: 150px;
+    height: 180px;
+
+    margin-top: 10px;
   }
 }
 
@@ -175,7 +185,9 @@ body {
   }
   .img-mobile{
     width: 100px;
-    height: 150px;
+    height: 180px;
+
+    margin-top: 10px;
   }
 
 }
@@ -217,8 +229,11 @@ body {
 
   .img-mobile{
     width: 100px;
-    height: 150px;
+    height: 180px;
+
+    margin-top: 10px;
   }
+
 
   
 }
