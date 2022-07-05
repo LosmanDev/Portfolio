@@ -47,11 +47,11 @@ buttonVanish.addEventListener("click", (e) => {
   contact_form.hidden = true;
 
   contact_form.innerHTML = `
-    <div class="container mt-4"" data-aos="fade-right" data-aos-duration="2000">
-    <h1 class="display-4 text-center font-weight-bold">
-      Message Sent! <i class="fa-solid fa-envelope-circle-check"></i>
-    </h1>
-  </div>
+  <div class="container mt-4"" data-aos="fade-right" data-aos-duration="2000">
+  <h1 class="display-4 text-center font-weight-bold">
+    Message Sent! <i class="fa-solid fa-envelope-circle-check"></i>
+  </h1>
+</div>
     `;
 
   contact_form.hidden = false;
