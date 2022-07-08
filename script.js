@@ -14,6 +14,7 @@ $("#myModal").on("shown.bs.modal", function () {
   $("#myInput").trigger("focus");
 });
 
+//CSS FADE initializer
 AOS.init();
 
 //Emailjs for contact from
@@ -32,29 +33,57 @@ function sendMail(params) {
     .send("service_n1w0hcr", "template_lngukbq", tempParams)
     .then(function (res) {
       console.log("Success", res.status);
-      e.preventDefault();
     });
 }
 
-// MESSAGE SENT DISCLAIMER FOR FORM
+//Emailjs for contact from
 
-let buttonVanish = document.getElementById("form-vanish");
-let contact_form = document.getElementById("form-hidden");
+//REGEX Name & Email
+const form_name = document.getElementById("fromName");
+form_name.addEventListener("blur", validateName);
+const form_email = document.getElementById("fromEmail");
+form_email.addEventListener("blur", validateEmail);
 
-buttonVanish.addEventListener("click", (e) => {
+function validateName() {
+  const name = document.getElementById("fromName");
+  const re = /^[a-zA-Z]{2,10}$/;
+
+  if (!re.test(name.value)) {
+    name.classList.add("is-invalid");
+  } else {
+    name.classList.remove("is-invalid");
+  }
+}
+
+function validateEmail() {
+  const email = document.getElementById("fromEmail");
+  const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+
+  if (!re.test(email.value)) {
+    email.classList.add("is-invalid");
+  } else {
+    email.classList.remove("is-invalid");
+  }
+}
+
+// Form Value Checker and sent Disclaimer
+
+let buttonSend = document.querySelector("#btn-send");
+
+buttonSend.addEventListener("click", (e) => {
   e.preventDefault();
 
-  contact_form.hidden = true;
-
-  contact_form.innerHTML = `
-  <div class="container mt-4"" data-aos="fade-right" data-aos-duration="2000">
-  <h1 class="display-4 text-center font-weight-bold">
-    Message Sent! <i class="fa-solid fa-envelope-circle-check"></i>
-  </h1>
-</div>
-    `;
-
-  contact_form.hidden = false;
+  if (form_name.value.length === 0 || form_email.value.length === 0) {
+    form_name.classList.add("is-invalid");
+    form_email.classList.add("is-invalid");
+  } else {
+    form_name.classList.remove("is-invalid");
+    form_email.classList.remove("is-invalid");
+    buttonSend.classList.remove("bg-black");
+    buttonSend.classList.add("btn-outline-success");
+    buttonSend.innerHTML = 'Sent! <i class="fa-solid fa-check"></i>';
+    sendMail();
+  }
 
   setTimeout(() => {
     location.reload();
