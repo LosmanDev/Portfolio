@@ -83,9 +83,8 @@ buttonSend.addEventListener("click", (e) => {
     buttonSend.classList.add("btn-outline-success");
     buttonSend.innerHTML = 'Sent! <i class="fa-solid fa-check"></i>';
     sendMail();
+    setTimeout(() => {
+      location.reload();
+    }, 5000);
   }
-
-  setTimeout(() => {
-    location.reload();
-  }, 5000);
 });
