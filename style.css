@@ -1,7 +1,6 @@
 body {
-  background-image: url("images/1330.jpg");
-  background-size:contain;
-  
+  background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
+  background-size: cover;
 }
 
 #main-header img {
@@ -10,7 +9,7 @@ body {
 }
 
 .font_family {
-  font-family: "Roboto" ;
+  font-family: "Roboto";
 }
 
 .icon-size {
@@ -34,7 +33,7 @@ body {
   border-bottom: 3px solid #fff;
 }
 
-.full-stack-font{
+.full-stack-font {
   font-size: 20px;
 }
 
@@ -57,7 +56,7 @@ body {
   font-size: 40px;
 }
 
-.img-mobile{
+.img-mobile {
   width: 150px;
   height: 300px;
   margin-left: 10px;
@@ -67,7 +66,7 @@ body {
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   body {
-    background-image: url("images/bgmobile.jpg");
+    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
   }
   .img-gif {
@@ -84,28 +83,28 @@ body {
   .full-stack-font {
     font-size: 11px;
   }
-  .name-title{
+  .name-title {
     font-size: 25px;
   }
 
-  .icon-size{
+  .icon-size {
     font-size: 25px;
   }
 
-  .mobile-font-title{
+  .mobile-font-title {
     font-size: 15px;
   }
 
-  .mobile-font-text{
+  .mobile-font-text {
     font-size: 10px;
   }
 
-  .img-mobile{
+  .img-mobile {
     width: 80px;
     height: 150px;
   }
 
-  .img-mobile{
+  .img-mobile {
     width: 80px;
     height: 150px;
 
@@ -117,7 +116,7 @@ body {
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   body {
-    background-image: url("images/bgmobile.jpg");
+    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
   }
   .img-gif {
@@ -133,24 +132,23 @@ body {
     font-size: 13px;
   }
 
-  .name-title{
-    font-size: 30px
-    
-  }
-
-  .icon-size{
+  .name-title {
     font-size: 30px;
   }
 
-  .mobile-font-title{
+  .icon-size {
+    font-size: 30px;
+  }
+
+  .mobile-font-title {
     font-size: 18px;
   }
 
-  .mobile-font-text{
+  .mobile-font-text {
     font-size: 15px;
   }
 
-  .img-mobile{
+  .img-mobile {
     width: 100px;
     height: 180px;
 
@@ -162,7 +160,7 @@ body {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   body {
-    background-image: url("images/bgmobile.jpg");
+    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
   }
   .img-gif {
@@ -177,26 +175,25 @@ body {
     font-size: 13px;
   }
 
-  .name-title{
-    font-size: 25px
+  .name-title {
+    font-size: 25px;
   }
-  .icon-size{
+  .icon-size {
     font-size: 35px;
   }
-  .img-mobile{
+  .img-mobile {
     width: 100px;
     height: 180px;
 
     margin-top: 10px;
   }
-
 }
 
 /* ----------- iPhone X ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body {
-    background-image: url("images/bgmobile.jpg");
+    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
   }
   .img-gif {
@@ -211,31 +208,28 @@ body {
     font-size: 13px;
   }
 
-  .name-title{
-    font-size: 35px
+  .name-title {
+    font-size: 35px;
   }
 
-  .icon-size{
+  .icon-size {
     font-size: 40px;
   }
 
-  .mobile-font-title{
+  .mobile-font-title {
     font-size: 20px;
   }
 
-  .mobile-font-text{
+  .mobile-font-text {
     font-size: 15px;
   }
 
-  .img-mobile{
+  .img-mobile {
     width: 100px;
     height: 180px;
 
     margin-top: 10px;
   }
-
-
-  
 }
 
 /* CSS Keyframs and Transitions */
@@ -257,20 +251,36 @@ body {
 }
 
 .wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
