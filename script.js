@@ -36,8 +36,6 @@ function sendMail(params) {
     });
 }
 
-//Emailjs for contact from
-
 //REGEX Name & Email
 const form_name = document.getElementById("fromName");
 form_name.addEventListener("blur", validateName);
@@ -88,3 +86,65 @@ buttonSend.addEventListener("click", (e) => {
     }, 5000);
   }
 });
+
+//Dev text transition
+
+const dev_transition = document.querySelector(".full-stack-font");
+const text1 = ` 
+<p
+data-aos="fade-in"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;Web Engineer&lt;/dev&gt;
+</p>`;
+
+const text2 = ` 
+<p
+data-aos="fade-in"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;Front-End Engineer&lt;/dev&gt;
+</p>`;
+const text3 = ` 
+<p
+data-aos="fade-in"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;Web Developer&lt;/dev&gt;
+</p>`;
+const text4 = ` 
+<p
+data-aos="fade-in"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;JavaScript Developer&lt;/dev&gt;
+</p>`;
+const text5 = ` 
+<p
+data-aos="fade-in"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;React Developer&lt;/dev&gt;
+</p>`;
+const text6 = ` 
+<p
+data-aos="fade-in"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;Software Engineer&lt;/dev&gt;
+</p>`;
+
+const texts = [text1, text2, text3, text4, text5, text6];
+let index = 0;
+setInterval(() => {
+  dev_transition.innerHTML = texts[index++];
+  if (index >= texts.length) {
+    index = 0;
+  }
+}, 2000);
