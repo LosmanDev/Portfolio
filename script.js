@@ -23,7 +23,7 @@ AOS.init();
   emailjs.init("YFXqHcA2AkdvH-RME");
 })();
 
-function sendMail(params) {
+function sendMail() {
   let tempParams = {
     from_name: document.getElementById("fromName").value,
     email: document.getElementById("fromEmail").value,
@@ -92,7 +92,7 @@ buttonSend.addEventListener("click", (e) => {
 const dev_transition = document.querySelector(".full-stack-font");
 const text1 = ` 
 <p
-data-aos="fade-in"
+data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
@@ -101,7 +101,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 
 const text2 = ` 
 <p
-data-aos="fade-in"
+data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
@@ -109,7 +109,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 </p>`;
 const text3 = ` 
 <p
-data-aos="fade-in"
+data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
@@ -117,7 +117,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 </p>`;
 const text4 = ` 
 <p
-data-aos="fade-in"
+data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
@@ -125,7 +125,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 </p>`;
 const text5 = ` 
 <p
-data-aos="fade-in"
+data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
@@ -133,7 +133,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 </p>`;
 const text6 = ` 
 <p
-data-aos="fade-in"
+data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
