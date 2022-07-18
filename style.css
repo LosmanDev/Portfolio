@@ -61,10 +61,12 @@ body {
   height: 300px;
   margin-left: 10px;
   border-radius: 10px;
+  box-shadow: 7px 10px 12px -5px rgb(255, 253, 253);
 }
 
 .img-gif {
   border-radius: 10px;
+  box-shadow: 7px 10px 12px -5px rgb(255, 253, 253);
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
