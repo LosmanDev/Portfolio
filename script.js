@@ -131,7 +131,7 @@ data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
-&lt;dev&gt;JavaScript Developer&lt;/dev&gt;
+&lt;dev&gt;Software Developer&lt;/dev&gt;
 </p>`;
 const text6 = ` 
 <p
@@ -139,9 +139,17 @@ data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
-&lt;dev&gt;React Developer&lt;/dev&gt;
+&lt;dev&gt;JavaScript Developer&lt;/dev&gt;
 </p>`;
 const text7 = ` 
+<p
+data-aos="fade"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;React Developer&lt;/dev&gt;
+</p>`;
+const text8 = ` 
 <p
 data-aos="fade"
 data-aos-duration="1500"
@@ -150,7 +158,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 &lt;dev&gt;Software Engineer&lt;/dev&gt;
 </p>`;
 
-const texts = [text1, text2, text3, text4, text5, text6, text7];
+const texts = [text1, text2, text3, text4, text5, text6, text7, text8];
 let index = 0;
 setInterval(() => {
   dev_transition.innerHTML = texts[index++];
