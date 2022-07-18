@@ -33,7 +33,7 @@ body {
   border-bottom: 3px solid #fff;
 }
 
-.full-stack-font {
+.devgineer {
   font-size: 20px;
 }
 
@@ -60,6 +60,11 @@ body {
   width: 150px;
   height: 300px;
   margin-left: 10px;
+  border-radius: 10px;
+}
+
+.img-gif {
+  border-radius: 10px;
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
@@ -80,7 +85,7 @@ body {
   .fullstack-border {
     font-size: 15px;
   }
-  .full-stack-font {
+  .devgineer {
     font-size: 11px;
   }
   .name-title {
@@ -128,7 +133,7 @@ body {
     margin-right: auto;
   }
 
-  .full-stack-font {
+  .devgineer {
     font-size: 13px;
   }
 
@@ -171,7 +176,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .full-stack-font {
+  .devgineer {
     font-size: 13px;
   }
 
@@ -203,7 +208,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .full-stack-font {
+  .devgineer {
     font-size: 13px;
   }
 

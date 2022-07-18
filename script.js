@@ -89,7 +89,7 @@ buttonSend.addEventListener("click", (e) => {
 
 //Dev text transition
 
-const dev_transition = document.querySelector(".full-stack-font");
+const dev_transition = document.querySelector(".devgineer");
 const text1 = ` 
 <p
 data-aos="fade"
@@ -107,7 +107,17 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
 &lt;dev&gt;Front-End Engineer&lt;/dev&gt;
 </p>`;
+
 const text3 = ` 
+<p
+data-aos="fade"
+data-aos-duration="1500"
+class="font-weight-bold full-stack-font font_family text-center mt-4"
+>
+&lt;dev&gt;UI/UX Developer&lt;/dev&gt;
+</p>`;
+
+const text4 = ` 
 <p
 data-aos="fade"
 data-aos-duration="1500"
@@ -115,7 +125,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
 &lt;dev&gt;Web Developer&lt;/dev&gt;
 </p>`;
-const text4 = ` 
+const text5 = ` 
 <p
 data-aos="fade"
 data-aos-duration="1500"
@@ -123,7 +133,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
 &lt;dev&gt;JavaScript Developer&lt;/dev&gt;
 </p>`;
-const text5 = ` 
+const text6 = ` 
 <p
 data-aos="fade"
 data-aos-duration="1500"
@@ -131,7 +141,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
 &lt;dev&gt;React Developer&lt;/dev&gt;
 </p>`;
-const text6 = ` 
+const text7 = ` 
 <p
 data-aos="fade"
 data-aos-duration="1500"
@@ -140,7 +150,7 @@ class="font-weight-bold full-stack-font font_family text-center mt-4"
 &lt;dev&gt;Software Engineer&lt;/dev&gt;
 </p>`;
 
-const texts = [text1, text2, text3, text4, text5, text6];
+const texts = [text1, text2, text3, text4, text5, text6, text7];
 let index = 0;
 setInterval(() => {
   dev_transition.innerHTML = texts[index++];
