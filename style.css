@@ -1,6 +1,7 @@
 body {
   background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #main-header img {
@@ -75,6 +76,7 @@ body {
   body {
     background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
+    background-attachment: fixed;
   }
   .img-gif {
     width: 250px;
@@ -125,6 +127,7 @@ body {
   body {
     background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
+    background-attachment: fixed;
   }
   .img-gif {
     width: 300px;
@@ -169,6 +172,7 @@ body {
   body {
     background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
+    background-attachment: fixed;
   }
   .img-gif {
     width: 300px;
@@ -201,6 +205,8 @@ body {
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body {
     background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
+    background-size: cover;
+    background-attachment: fixed;
   }
   .img-gif {
     width: 300px;
@@ -289,4 +295,13 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* Hover image */
+#projects img {
+  transition: all ease 500ms;
+}
+
+#projects img:hover {
+  transform: scale(1.55);
 }
