@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
+  background-image: url("./gifs/bg.gif");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -62,22 +62,17 @@ body {
   height: 300px;
   margin-left: 10px;
   border-radius: 10px;
-  box-shadow: 7px 10px 12px -5px rgb(255, 253, 253);
+  box-shadow: 7px 10px 12px 1px rgba(255, 253, 253, 0.944);
 }
 
 .img-gif {
   border-radius: 10px;
-  box-shadow: 7px 10px 12px -5px rgb(255, 253, 253);
+  box-shadow: 7px 10px 12px 1px rgba(255, 253, 253, 0.944);
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
-    background-size: cover;
-    background-attachment: fixed;
-  }
   .img-gif {
     width: 250px;
     height: 180px;
@@ -124,11 +119,6 @@ body {
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  body {
-    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
-    background-size: cover;
-    background-attachment: fixed;
-  }
   .img-gif {
     width: 300px;
     height: 180px;
@@ -169,11 +159,6 @@ body {
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  body {
-    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
-    background-size: cover;
-    background-attachment: fixed;
-  }
   .img-gif {
     width: 300px;
     height: 180px;
@@ -203,11 +188,6 @@ body {
 /* ----------- iPhone X ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  body {
-    background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
-    background-size: cover;
-    background-attachment: fixed;
-  }
   .img-gif {
     width: 300px;
     height: 180px;
@@ -239,7 +219,6 @@ body {
   .img-mobile {
     width: 100px;
     height: 180px;
-
     margin-top: 10px;
   }
 }
@@ -299,9 +278,9 @@ body {
 
 /* Hover image */
 #projects img {
-  transition: all ease 500ms;
+  transition: all ease 800ms;
 }
 
 #projects img:hover {
-  transform: scale(1.55);
+  transform: scale(1.25);
 }
