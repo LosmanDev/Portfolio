@@ -166,3 +166,8 @@ setInterval(() => {
     index = 0;
   }
 }, 2000);
+
+//Carousel slide animation
+$(".carousel").carousel({
+  interval: 10000,
+});
