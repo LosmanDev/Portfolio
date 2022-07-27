@@ -1,6 +1,7 @@
 body {
   background-image: url("./gifs/bg.gif");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
