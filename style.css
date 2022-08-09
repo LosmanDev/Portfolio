@@ -27,10 +27,6 @@ body {
   background-color: rgba(0, 0, 0, 0.911) !important;
 }
 
-.bg-modal {
-  color: #000;
-}
-
 .nav-icons {
   border-right: 3px solid #fff;
 }
@@ -62,15 +58,16 @@ body {
   font-size: 40px;
 }
 
-.img-mobile {
-  width: 150px;
-  height: 300px;
-  margin-left: 10px;
+.video-size {
+  width: 600px;
+  height: 319px;
   border-radius: 10px;
   box-shadow: 7px 10px 12px 1px rgba(255, 253, 253, 0.944);
 }
 
-.img-gif {
+.video-size-mobile {
+  width: 150px;
+  height: 300px;
   border-radius: 10px;
   box-shadow: 7px 10px 12px 1px rgba(255, 253, 253, 0.944);
 }
@@ -78,14 +75,17 @@ body {
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .img-gif {
+  .video-size {
     width: 250px;
     height: 180px;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
+
+  .video-size-mobile {
+    width: 80px;
+    height: 150px;
+    margin-top: 10px;
+  }
+
   .fullstack-border {
     font-size: 15px;
   }
@@ -107,30 +107,20 @@ body {
   .mobile-font-text {
     font-size: 10px;
   }
-
-  .img-mobile {
-    width: 80px;
-    height: 150px;
-  }
-
-  .img-mobile {
-    width: 80px;
-    height: 150px;
-
-    margin-top: 10px;
-  }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .img-gif {
+  .video-size {
     width: 300px;
     height: 180px;
+  }
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .video-size-mobile {
+    width: 100px;
+    height: 180px;
+    margin-top: 10px;
   }
 
   .devgineer {
@@ -152,26 +142,22 @@ body {
   .mobile-font-text {
     font-size: 15px;
   }
-
-  .img-mobile {
-    width: 100px;
-    height: 180px;
-
-    margin-top: 10px;
-  }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .img-gif {
+  .video-size {
     width: 300px;
     height: 180px;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
+
+  .video-size-mobile {
+    width: 100px;
+    height: 180px;
+    margin-top: 10px;
+  }
+
   .devgineer {
     font-size: 13px;
   }
@@ -182,25 +168,22 @@ body {
   .icon-size {
     font-size: 35px;
   }
-  .img-mobile {
-    width: 100px;
-    height: 180px;
-
-    margin-top: 10px;
-  }
 }
 
 /* ----------- iPhone X ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .img-gif {
+  .video-size {
     width: 300px;
     height: 180px;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
+
+  .video-size-mobile {
+    width: 100px;
+    height: 180px;
+    margin-top: 10px;
+  }
+
   .devgineer {
     font-size: 13px;
   }
@@ -219,12 +202,6 @@ body {
 
   .mobile-font-text {
     font-size: 15px;
-  }
-
-  .img-mobile {
-    width: 100px;
-    height: 180px;
-    margin-top: 10px;
   }
 }
 
@@ -287,5 +264,13 @@ body {
 }
 
 #projects img:hover {
+  transform: scale(1.25);
+}
+
+#projects video {
+  transition: all ease 800ms;
+}
+
+#projects video:hover {
   transform: scale(1.25);
 }
