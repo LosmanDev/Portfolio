@@ -4,7 +4,7 @@ body {
 }
 
 body {
-  background-image: url("./gifs/bg.gif");
+  background-image: url("./bg.gif");
   overflow-y: scroll;
   background-size: cover;
 }
