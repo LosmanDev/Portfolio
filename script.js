@@ -169,5 +169,5 @@ setInterval(() => {
 
 //Carousel slide animation
 $(".carousel").carousel({
-  interval: 8000,
+  interval: 4000,
 });
