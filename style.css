@@ -58,6 +58,8 @@ body {
   font-size: 40px;
 }
 
+
+
 .video-size {
   width: 600px;
   height: 319px;
@@ -240,13 +242,25 @@ body {
 }
 
 .carousel-control-next:hover {
-  background-color: rgba(7, 176, 243, 0.089);
+  background-color: rgba(217, 222, 224, 0.089);
+  color: rgb(53, 182, 122);
   border-radius: 20px;
   height: 500px;
 }
 
 .carousel-control-prev:hover {
-  background-color: rgba(7, 176, 243, 0.089);
+  background-color: rgba(217, 222, 224, 0.089);
+  color: rgb(53, 182, 122);
   border-radius: 20px;
   height: 500px;
+}
+
+.carousel-control-next{
+  color: rgb(53, 182, 122);
+  font-size: 35px;
+}
+
+.carousel-control-prev{
+  color: rgb(53, 182, 122);
+  font-size: 35px;
 }
