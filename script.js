@@ -105,7 +105,7 @@ data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
-&lt;dev&gt;Front-End Engineer&lt;/dev&gt;
+&lt;dev&gt;Front-End Developer&lt;/dev&gt;
 </p>`;
 
 const text3 = ` 
@@ -114,7 +114,7 @@ data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
-&lt;dev&gt;UI/UX Developer&lt;/dev&gt;
+&lt;dev&gt;UI/UX Designer&lt;/dev&gt;
 </p>`;
 
 const text4 = ` 
@@ -147,7 +147,7 @@ data-aos="fade"
 data-aos-duration="1500"
 class="font-weight-bold full-stack-font font_family text-center mt-4"
 >
-&lt;dev&gt;React Developer&lt;/dev&gt;
+&lt;dev&gt;Web App Developer&lt;/dev&gt;
 </p>`;
 const text8 = ` 
 <p
