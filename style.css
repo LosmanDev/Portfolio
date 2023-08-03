@@ -14,8 +14,13 @@ body {
   height: 100%;
 }
 
-.font_family {
-  font-family: "Roboto";
+.font-family {
+  font-family:"'Times New Roman', Times, serif";
+  font-size: 22px;
+}
+
+.name-title{
+  font-family:"'Times New Roman', Times, serif";
 }
 
 .icon-size {
@@ -161,7 +166,41 @@ body {
   .mobile-font-text {
     font-size: 15px;
   }
+
+  .font-family{
+    font-size: 18px;
+  }
 }
+
+/* ----------- iPhone 12 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (-webkit-min-device-pixel-ratio: 3) {
+  .devgineer {
+    font-size: 13px;
+  }
+
+  .name-title {
+    font-size: 35px;
+  }
+
+  .icon-size {
+    font-size: 40px;
+  }
+
+  .mobile-font-title {
+    font-size: 20px;
+  }
+
+  .mobile-font-text {
+    font-size: 15px;
+  }
+
+  .font-family{
+    font-size: 18px;
+  }
+}
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -240,6 +279,45 @@ body {
     transform: rotate(0deg);
   }
 }
+
+.mail-css {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 3.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
 
 .carousel-control-next:hover {
   background-color: rgba(217, 222, 224, 0.089);
