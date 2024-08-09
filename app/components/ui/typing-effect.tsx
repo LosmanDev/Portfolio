@@ -60,14 +60,14 @@ export default function TypingEffect() {
 
   return (
     <div className="inline-flex items-center">
-      <motion.h1 className="font-medium title-font mt-4 dark:text-white text-lg">
-        {displayText}
+      <motion.h1 className="font-medium title-font mt-4 dark:text-white text-lg flex items-center">
+        <motion.span>{displayText}</motion.span>
+        <motion.div
+          variants={cursorVariants}
+          animate="blinking"
+          className="inline-block h-5 w-[1px] ml-[1px] translate-y-[1px] dark:bg-white bg-neutral-600"
+        />
       </motion.h1>
-      <motion.div
-        variants={cursorVariants}
-        animate="blinking"
-        className="inline-block h-5 w-[1px] translate-y-1 dark:bg-white bg-neutral-600"
-      />
     </div>
   );
 }

@@ -2,65 +2,128 @@ import Image from 'next/image';
 import React from 'react';
 import { CardBody, CardContainer, CardItem } from '../components/ui/3d-card';
 import Link from 'next/link';
-import liban from '../../public/assets/liban.webp';
+import behind from '../../public/assets/projects/behind.webp';
+import waldo from '../../public/assets/projects/waldo.webp';
+import projectx from '../../public/assets/projects/projectx.webp';
+import masjid from '../../public/assets/projects/masjid.webp';
+import onlyllc from '../../public/assets/projects/only.webp';
+import boyah from '../../public/assets/projects/boyah.webp';
+import crypto from '../../public/assets/projects/crypto-suuq.webp';
+import github from '../../public/assets/projects/GitHub.webp';
+import td from '../../public/assets/projects/TD.webp';
+import nasa from '../../public/assets/projects/NASA.webp';
+import nomad from '../../public/assets/projects/nomad.webp';
+import halal from '../../public/assets/projects/halal.webp';
 
 export default function Projects() {
   const projects = [
     {
-      title: 'Project',
-      description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sit optio beatae maiores illo fugiat.',
-      image: liban,
-      alt: 'alt for the alt',
-      link: 'https://github.com/LosmanDev',
-      visit: 'https://github.com/LosmanDev',
+      title: 'Behind the Cutz',
+      description: 'A web based mobile waitlist app for my local barber.',
+      image: behind,
+      alt: 'Behind the cutz landing page to join waitlist',
+      link: 'https://github.com/LosmanDev/BehindTheCutz',
+      visit: 'https://behindthecutz.vercel.app/',
     },
     {
-      title: 'Project',
-      description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sit optio beatae maiores illo fugiat.',
-      image: liban,
-      alt: 'alt for the alt',
-      link: 'https://github.com/LosmanDev',
-      visit: 'https://github.com/LosmanDev',
+      title: 'Waldo Immigration and Refugee Assistance Center Inc',
+      description: 'A Nonprofit Organization based in Boston, MA.',
+      image: waldo,
+      alt: 'Waldo Immigration and Refugee Assistance Center Inc landing page ',
+      link: 'https://github.com/LosmanDev/Waldo-Refugee',
+      visit: 'https://waldorefugee.org/',
     },
     {
-      title: 'Project',
+      title: 'Project X',
       description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sit optio beatae maiores illo fugiat.',
-      image: liban,
-      alt: 'alt for the alt',
-      link: 'https://github.com/LosmanDev',
-      visit: 'https://github.com/LosmanDev',
+        'Full Stack Web Application for Radiology Reporting of COVID-19 Chest X-Rays.',
+      image: projectx,
+      alt: 'Project X landing page',
+      link: 'https://github.com/Quick07/Hack-Diversity-SWE-Group-6-Project',
+      visit: 'https://techdive6.onrender.com/',
     },
     {
-      title: 'Project',
+      title: 'Masjid At Taqwa',
       description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sit optio beatae maiores illo fugiat.',
-      image: liban,
-      alt: 'alt for the alt',
-      link: 'https://github.com/LosmanDev',
-      visit: 'https://github.com/LosmanDev',
+        'Local Masjid in Malden, MA. A Beacon of Faith and Education',
+      image: masjid,
+      alt: 'Masjid At Taqwa Landing Page',
+      link: 'https://github.com/LosmanDev/Masjid-AT-Taqwa',
+      visit: 'https://masjid-at-taqwa.vercel.app/',
     },
     {
-      title: 'Project',
-      description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sit optio beatae maiores illo fugiat.',
-      image: liban,
-      alt: 'alt for the alt',
-      link: 'https://github.com/LosmanDev',
-      visit: 'https://github.com/LosmanDev',
+      title: '1 and Only Staffing LLC',
+      description: 'Nurse staffing agency based in Minnesota.',
+      image: onlyllc,
+      alt: '1 and Only Staffing LLC landing page.',
+      link: 'https://github.com/LosmanDev/1AndOnlyStaffingLLC',
+      visit: 'https://1andonlystaffingllc.com/',
     },
     {
-      title: 'Project',
+      title: 'Boyah J Farah',
+      description: "Boyah J Farah's blog website.",
+      image: boyah,
+      alt: 'Blog Site for Boyah J Farah',
+      link: 'https://github.com/LosmanDev/BoyahJFarah',
+      visit: 'https://boyahjfarah.vercel.app/',
+    },
+    {
+      title: 'Crypto Suuq',
       description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sit optio beatae maiores illo fugiat.',
-      image: liban,
-      alt: 'alt for the alt',
-      link: 'https://github.com/LosmanDev',
-      visit: 'https://github.com/LosmanDev',
+        'Track your favorite crypto prices utilizing the coin ranking API.',
+      image: crypto,
+      alt: 'Crypto Suuq landing with latest crypto prices',
+      link: 'https://github.com/LosmanDev/crypto-suuq',
+      visit: 'https://crypto-suuq.netlify.app/',
+    },
+    {
+      title: 'Github Profile Finder',
+      description:
+        'Utilizing GitHubs API, you can track every user and see their profile and latest public repos.',
+      image: github,
+      alt: 'Github profile finder utilizing githubs api to track users',
+      link: 'https://github.com/LosmanDev/Github-Person-Finder',
+      visit: 'https://losmandev.github.io/Github-Person-Finder/',
+    },
+    {
+      title: 'TD Garden Events',
+      description:
+        'A clone of the TD Garden Events section using Javascript to directly manipulate the DOM',
+      image: td,
+      alt: 'TD Garden Events website',
+      link: 'https://github.com/LosmanDev/TD-Garden-Clone',
+      visit: 'https://losmandev.github.io/TD-Garden-Clone/',
+    },
+    {
+      title: 'NASA Photo of The Day',
+      description:
+        "Explore a daily showcase of exceptional images from 1995 to the present, captured through NASA's API.",
+      image: nasa,
+      alt: 'NASA Photo of the day.',
+
+      link: 'https://github.com/LosmanDev/NASA-Photo-API',
+      visit: 'https://losmandev.github.io/NASA-Photo-API/',
+    },
+    {
+      title: 'Nomad Energy',
+      description:
+        'A solar energy company providing an affordable, reliable and renewable energy located in Garoowe, Nugaal Somalia.',
+      image: nomad,
+      alt: 'Nomad Energy landing page.',
+      link: 'https://github.com/LosmanDev/Nomad-Energy',
+      visit: 'https://losmandev.github.io/Nomad-Energy/',
+    },
+    {
+      title: 'Halal Meat Express',
+      description:
+        'Halal Meat Express is a local shop that sells halal meat and goods, and also offers a money transfer service to various locations around the world.',
+      image: halal,
+      alt: 'Halal Meat Express landing page.',
+      link: 'https://github.com/LosmanDev/HalalMeatExpress',
+      visit: 'https://losmandev.github.io/HalalMeatExpress/',
     },
   ];
+
   return (
     <>
       <section id="projects" className="container px-5 lg:w-4/6 mx-auto ">
@@ -72,12 +135,12 @@ export default function Projects() {
           {projects.map((project, index) => (
             <CardContainer
               key={index}
-              className="inter-var shadow-xl shadow-black dark:shadow-white rounded-xl"
+              className="inter-var shadow-lg shadow-black dark:shadow-white rounded-xl"
             >
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
-                  className="text-xl font-bold text-neutral-600 dark:text-white"
+                  className="text-center text-xl font-bold text-neutral-600 dark:text-white"
                 >
                   {project.title}
                 </CardItem>
@@ -85,16 +148,14 @@ export default function Projects() {
                 <CardItem translateZ="100" className="w-full mt-4">
                   <Image
                     src={project.image}
-                    height={1000}
-                    width={1000}
-                    className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    className="w-full object-contain object-center rounded group-hover/card:shadow-xl"
                     alt={project.alt}
                   />
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-10 dark:text-neutral-300"
+                  className="text-neutral-500 text-sm max-w-sm mt-8 dark:text-neutral-300"
                 >
                   {project.description}
                 </CardItem>

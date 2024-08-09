@@ -16,7 +16,7 @@ export default function Home() {
           ]}
         />
         <main className="flex-grow">
-          <TracingBeam>
+          <TracingBeam className="px-6">
             <Landing />
             <Projects />
             <Footer />
