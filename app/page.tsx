@@ -19,8 +19,8 @@ export default function Home() {
           <TracingBeam className="px-6">
             <Landing />
             <Projects />
-            <Footer />
           </TracingBeam>
+          <Footer />
         </main>
       </section>
     </>

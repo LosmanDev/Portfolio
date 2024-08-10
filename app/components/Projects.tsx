@@ -24,6 +24,26 @@ export default function Projects() {
       alt: 'Behind the cutz landing page to join waitlist',
       link: 'https://github.com/LosmanDev/BehindTheCutz',
       visit: 'https://behindthecutz.vercel.app/',
+      techStack: (
+        <>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="logos--nextjs-icon mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--react logo mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--tailwindcss mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--postgresql mr-1"
+          ></span>
+        </>
+      ),
     },
     {
       title: 'Waldo Immigration and Refugee Assistance Center Inc',
@@ -32,11 +52,27 @@ export default function Projects() {
       alt: 'Waldo Immigration and Refugee Assistance Center Inc landing page ',
       link: 'https://github.com/LosmanDev/Waldo-Refugee',
       visit: 'https://waldorefugee.org/',
+      techStack: (
+        <>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="logos--nextjs-icon mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--react logo mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--tailwindcss mr-1"
+          ></span>
+        </>
+      ),
     },
     {
       title: 'Project X',
       description:
-        'Full Stack Web Application for Radiology Reporting of COVID-19 Chest X-Rays.',
+        'Full Stack web application for radiology reporting of COVID-19 chest X-Rays.',
       image: projectx,
       alt: 'Project X landing page',
       link: 'https://github.com/Quick07/Hack-Diversity-SWE-Group-6-Project',
@@ -45,7 +81,7 @@ export default function Projects() {
     {
       title: 'Masjid At Taqwa',
       description:
-        'Local Masjid in Malden, MA. A Beacon of Faith and Education',
+        'Local masjid in Malden, MA. A Beacon of Faith and Education',
       image: masjid,
       alt: 'Masjid At Taqwa Landing Page',
       link: 'https://github.com/LosmanDev/Masjid-AT-Taqwa',
@@ -135,7 +171,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <CardContainer
               key={index}
-              className="inter-var shadow-lg shadow-black dark:shadow-white rounded-xl"
+              className="inter-var shadow-projects rounded-xl "
             >
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border">
                 <CardItem
@@ -159,6 +195,11 @@ export default function Projects() {
                 >
                   {project.description}
                 </CardItem>
+                {project.techStack && (
+                  <CardItem translateZ="60" className="mt-2">
+                    {project.techStack}
+                  </CardItem>
+                )}
                 <div className="flex justify-between items-center mt-20">
                   <CardItem
                     translateZ={20}
@@ -174,7 +215,7 @@ export default function Projects() {
                     as={Link}
                     href={project.visit}
                     target="_blank"
-                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    className="px-4 py-2 rounded-xl bg-neutral-600 dark:bg-white dark:text-black text-white text-xs font-bold"
                   >
                     Visit
                   </CardItem>

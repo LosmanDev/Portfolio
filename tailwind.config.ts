@@ -15,6 +15,10 @@ module.exports = {
       animation: {
         aurora: 'aurora 60s linear infinite',
       },
+      boxShadow: {
+        projects:
+          '0 20px 25px -5px rgba(59, 130, 246, 0.4), 0 10px 10px -5px rgba(165, 180, 252, 0.3), 0 20px 25px -5px rgba(147, 197, 253, 0.4), 0 10px 10px -5px rgba(221, 214, 254, 0.3), 0 20px 25px -5px rgba(96, 165, 250, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.1)',
+      },
       keyframes: {
         aurora: {
           from: {

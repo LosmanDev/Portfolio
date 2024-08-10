@@ -47,8 +47,8 @@ export function HoverBorderGradient({
         <MovingBorder duration={duration}>
           <div
             className={cn(
-              'h-10 w-6',
-              'bg-gradient-to-r from-[#f6b048] to-[#D3A433]',
+              'h-10 w-10',
+              'bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)]',
               borderClassName,
             )}
           />
@@ -57,7 +57,7 @@ export function HoverBorderGradient({
 
       <div
         className={cn(
-          'relative backdrop-blur-xl flex items-center justify-center w-full h-full text-sm antialiased',
+          'relative backdrop-blur-lg flex items-center justify-center w-full h-full text-sm antialiased',
           className,
         )}
         style={{
