@@ -111,11 +111,14 @@ export default function Landing() {
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l dark:border-white border-black sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <HoverBorderGradient>
                   <p className="leading-relaxed sm:text-base font-normal text-xs mt-4 p-4 dark:text-white">
-                    I'm a highly motivated IT professional with experience in
-                    both frontend and backend development. Skilled in crafting
-                    user-friendly interfaces with cutting edge web technologies.
-                    Adept at building robust backend logic, APIs and RESTful
-                    principles.
+                    I'm a highly motivated IT professional with experience
+                    building innovative web applications. Skilled in crafting
+                    user-friendly interfaces with HTML5, CSS3, JavaScript
+                    (ES6+), TypeScript, and React/Nextjs. Adept at building
+                    robust backend logic and APIs using Node.js, Next.js(SSR,
+                    SSG, API Routes) PHP, PostgreSQL, MySQL, MongoDB and RESTful
+                    principles. Proven ability to solve complex technical
+                    challenges and delivering high-quality solutions.
                   </p>
                 </HoverBorderGradient>
               </div>
