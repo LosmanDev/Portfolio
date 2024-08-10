@@ -47,7 +47,7 @@ export function HoverBorderGradient({
         <MovingBorder duration={duration}>
           <div
             className={cn(
-              'h-10 w-4',
+              'h-10 w-6',
               'bg-gradient-to-r from-[#f6b048] to-[#D3A433]',
               borderClassName,
             )}
