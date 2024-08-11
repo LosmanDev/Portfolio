@@ -40,7 +40,7 @@ export default function Projects() {
           ></span>
           <span
             style={{ width: '1rem', height: '1rem' }}
-            className="devicon--postgresql mr-1"
+            className="logos--supabase-icon mr-1"
           ></span>
         </>
       ),
@@ -77,6 +77,34 @@ export default function Projects() {
       alt: 'Project X landing page',
       link: 'https://github.com/Quick07/Hack-Diversity-SWE-Group-6-Project',
       visit: 'https://techdive6.onrender.com/',
+      techStack: (
+        <>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="logos--semantic-ui mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="simple-icons--mui  mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="vscode-icons--file-type-styled mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--react logo mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="logos--nodejs-icon"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--mongodb"
+          ></span>
+        </>
+      ),
     },
     {
       title: 'Masjid At Taqwa',
@@ -86,6 +114,22 @@ export default function Projects() {
       alt: 'Masjid At Taqwa Landing Page',
       link: 'https://github.com/LosmanDev/Masjid-AT-Taqwa',
       visit: 'https://masjid-at-taqwa.vercel.app/',
+      techStack: (
+        <>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="logos--nextjs-icon mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--react logo mr-1"
+          ></span>
+          <span
+            style={{ width: '1rem', height: '1rem' }}
+            className="devicon--tailwindcss mr-1"
+          ></span>
+        </>
+      ),
     },
     {
       title: '1 and Only Staffing LLC',

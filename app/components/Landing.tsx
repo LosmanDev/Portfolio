@@ -178,9 +178,9 @@ export default function Landing() {
                 </div>
 
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="devicon--postgresql"></span>
+                  <span className="logos--supabase-icon"></span>
                   <span className="text-[10px] dark:text-white font-normal">
-                    PostgreSQL
+                    Supabase
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
