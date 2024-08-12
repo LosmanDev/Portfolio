@@ -1,6 +1,8 @@
+'use client';
 import Image from 'next/image';
-import React from 'react';
+import { useState } from 'react';
 import { CardBody, CardContainer, CardItem } from '../components/ui/3d-card';
+import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import behind from '../../public/assets/projects/behind.webp';
 import waldo from '../../public/assets/projects/waldo.webp';
@@ -16,6 +18,8 @@ import nomad from '../../public/assets/projects/nomad.webp';
 import halal from '../../public/assets/projects/halal.webp';
 
 export default function Projects() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   const projects = [
     {
       title: 'Behind the Cutz',
@@ -26,22 +30,10 @@ export default function Projects() {
       visit: 'https://behindthecutz.vercel.app/',
       techStack: (
         <>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="logos--nextjs-icon mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--react logo mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--tailwindcss mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="logos--supabase-icon mr-1"
-          ></span>
+          <span className="logos--nextjs-icon  w-4 h-4 mr-1"></span>
+          <span className="devicon--react logo w-4 h-4 mr-1"></span>
+          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+          <span className="logos--supabase-icon w-3 h-4 n mr-1"></span>
         </>
       ),
     },
@@ -54,18 +46,9 @@ export default function Projects() {
       visit: 'https://waldorefugee.org/',
       techStack: (
         <>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="logos--nextjs-icon mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--react logo mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--tailwindcss mr-1"
-          ></span>
+          <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+          <span className="devicon--react logo w-4 h-4 mr-1"></span>
+          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
         </>
       ),
     },
@@ -79,30 +62,12 @@ export default function Projects() {
       visit: 'https://techdive6.onrender.com/',
       techStack: (
         <>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="logos--semantic-ui mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="simple-icons--mui  mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="vscode-icons--file-type-styled mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--react logo mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="logos--nodejs-icon"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--mongodb"
-          ></span>
+          <span className="logos--semantic-ui rounded-sm w-4 h-4 mr-1"></span>
+          <span className="simple-icons--mui w-4 h-4  mr-1"></span>
+          <span className="vscode-icons--file-type-styled w-4 h-4 mr-1"></span>
+          <span className="devicon--react logo w-4 h-4 mr-1"></span>
+          <span className="logos--nodejs-icon w-4 h-4"></span>
+          <span className="devicon--mongodb w-4 h-4"></span>
         </>
       ),
     },
@@ -116,18 +81,9 @@ export default function Projects() {
       visit: 'https://masjid-at-taqwa.vercel.app/',
       techStack: (
         <>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="logos--nextjs-icon mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--react logo mr-1"
-          ></span>
-          <span
-            style={{ width: '1rem', height: '1rem' }}
-            className="devicon--tailwindcss mr-1"
-          ></span>
+          <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+          <span className="devicon--react logo w-4 h-4 mr-1"></span>
+          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
         </>
       ),
     },
@@ -138,6 +94,14 @@ export default function Projects() {
       alt: '1 and Only Staffing LLC landing page.',
       link: 'https://github.com/LosmanDev/1AndOnlyStaffingLLC',
       visit: 'https://1andonlystaffingllc.com/',
+      techStack: (
+        <>
+          <span className="skill-icons--html w-4 h-4 mr-1"></span>
+          <span className="skill-icons--css w-4 h-4 mr-1"></span>
+          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+        </>
+      ),
     },
     {
       title: 'Boyah J Farah',
@@ -146,6 +110,13 @@ export default function Projects() {
       alt: 'Blog Site for Boyah J Farah',
       link: 'https://github.com/LosmanDev/BoyahJFarah',
       visit: 'https://boyahjfarah.vercel.app/',
+      techStack: (
+        <>
+          <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+          <span className="devicon--react logo w-4 h-4 mr-1"></span>
+          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+        </>
+      ),
     },
     {
       title: 'Crypto Suuq',
@@ -155,6 +126,13 @@ export default function Projects() {
       alt: 'Crypto Suuq landing with latest crypto prices',
       link: 'https://github.com/LosmanDev/crypto-suuq',
       visit: 'https://crypto-suuq.netlify.app/',
+      techStack: (
+        <>
+          <span className="devicon--react logo w-4 h-4 mr-1"></span>
+          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+          <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white"></span>
+        </>
+      ),
     },
     {
       title: 'Github Profile Finder',
@@ -164,6 +142,15 @@ export default function Projects() {
       alt: 'Github profile finder utilizing githubs api to track users',
       link: 'https://github.com/LosmanDev/Github-Person-Finder',
       visit: 'https://losmandev.github.io/Github-Person-Finder/',
+      techStack: (
+        <>
+          <span className="skill-icons--html w-4 h-4 mr-1"></span>
+          <span className="skill-icons--css w-4 h-4 mr-1"></span>
+          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+          <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white"></span>
+        </>
+      ),
     },
     {
       title: 'TD Garden Events',
@@ -173,6 +160,14 @@ export default function Projects() {
       alt: 'TD Garden Events website',
       link: 'https://github.com/LosmanDev/TD-Garden-Clone',
       visit: 'https://losmandev.github.io/TD-Garden-Clone/',
+      techStack: (
+        <>
+          <span className="skill-icons--html w-4 h-4 mr-1"></span>
+          <span className="skill-icons--css w-4 h-4 mr-1"></span>
+          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+        </>
+      ),
     },
     {
       title: 'NASA Photo of The Day',
@@ -183,6 +178,15 @@ export default function Projects() {
 
       link: 'https://github.com/LosmanDev/NASA-Photo-API',
       visit: 'https://losmandev.github.io/NASA-Photo-API/',
+      techStack: (
+        <>
+          <span className="skill-icons--html w-4 h-4 mr-1"></span>
+          <span className="skill-icons--css w-4 h-4 mr-1"></span>
+          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+          <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white"></span>
+        </>
+      ),
     },
     {
       title: 'Nomad Energy',
@@ -192,6 +196,14 @@ export default function Projects() {
       alt: 'Nomad Energy landing page.',
       link: 'https://github.com/LosmanDev/Nomad-Energy',
       visit: 'https://losmandev.github.io/Nomad-Energy/',
+      techStack: (
+        <>
+          <span className="skill-icons--html w-4 h-4 mr-1"></span>
+          <span className="skill-icons--css w-4 h-4 mr-1"></span>
+          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+          <span className="devicon--jquery w-4 h-4 mr-1"></span>
+        </>
+      ),
     },
     {
       title: 'Halal Meat Express',
@@ -201,35 +213,58 @@ export default function Projects() {
       alt: 'Halal Meat Express landing page.',
       link: 'https://github.com/LosmanDev/HalalMeatExpress',
       visit: 'https://losmandev.github.io/HalalMeatExpress/',
+      techStack: (
+        <>
+          <span className="skill-icons--html w-4 h-4 mr-1"></span>
+          <span className="skill-icons--css w-4 h-4 mr-1"></span>
+          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+          <span className="devicon--jquery w-4 h-4 mr-1"></span>
+        </>
+      ),
     },
   ];
 
+  const nextProject = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+  };
+
+  const prevProject = () => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + projects.length) % projects.length,
+    );
+  };
+
   return (
-    <>
-      <section id="projects" className="container px-5 lg:w-4/6 mx-auto ">
-        <h1 className="text-neutral-600 dark:text-white font-bold text-2xl">
-          Projects
-        </h1>
-        <div className="w-20 h-1 dark:bg-white bg-neutral-600 rounded mt-2 mb-4"></div>
-        <div className="flex flex-row gap-16 items-center justify-center flex-wrap">
-          {projects.map((project, index) => (
-            <CardContainer
-              key={index}
-              className="inter-var shadow-projects rounded-xl "
-            >
-              <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border">
+    <section id="projects" className="container px-5 lg:w-4/6 mx-auto">
+      <h1 className="text-neutral-600 dark:text-white font-bold text-2xl">
+        Projects
+      </h1>
+      <div className="w-20 h-1 shadow-projects dark:bg-white bg-neutral-600 rounded mt-2 mb-4 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"></div>
+
+      <div className="relative h-[600px]">
+        <AnimatePresence initial={false}>
+          <motion.div
+            key={currentIndex}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+            className="absolute w-full"
+          >
+            <CardContainer className="inter-var shadow-projects rounded-xl">
+              <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
                   className="text-center text-xl font-bold text-neutral-600 dark:text-white"
                 >
-                  {project.title}
+                  {projects[currentIndex].title}
                 </CardItem>
 
                 <CardItem translateZ="100" className="w-full mt-4">
                   <Image
-                    src={project.image}
+                    src={projects[currentIndex].image}
                     className="w-full object-contain object-center rounded group-hover/card:shadow-xl"
-                    alt={project.alt}
+                    alt={projects[currentIndex].alt}
                   />
                 </CardItem>
                 <CardItem
@@ -237,18 +272,21 @@ export default function Projects() {
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-8 dark:text-neutral-300"
                 >
-                  {project.description}
+                  {projects[currentIndex].description}
                 </CardItem>
-                {project.techStack && (
-                  <CardItem translateZ="60" className="mt-2">
-                    {project.techStack}
+                {projects[currentIndex].techStack && (
+                  <CardItem
+                    translateZ="60"
+                    className="mt-2 flex flex-row justify-center items-center"
+                  >
+                    {projects[currentIndex].techStack}
                   </CardItem>
                 )}
                 <div className="flex justify-between items-center mt-20">
                   <CardItem
                     translateZ={20}
                     as={Link}
-                    href={project.link}
+                    href={projects[currentIndex].link}
                     target="_blank"
                     className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                   >
@@ -257,7 +295,7 @@ export default function Projects() {
                   <CardItem
                     translateZ={20}
                     as={Link}
-                    href={project.visit}
+                    href={projects[currentIndex].visit}
                     target="_blank"
                     className="px-4 py-2 rounded-xl bg-neutral-600 dark:bg-white dark:text-black text-white text-xs font-bold"
                   >
@@ -266,9 +304,24 @@ export default function Projects() {
                 </div>
               </CardBody>
             </CardContainer>
-          ))}
-        </div>
-      </section>
-    </>
+          </motion.div>
+        </AnimatePresence>
+
+        <button
+          onClick={prevProject}
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 "
+          aria-label="Previous project"
+        >
+          <span className="bx--left-arrow dark:bg-white bg-neutral-700 transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
+        </button>
+        <button
+          onClick={nextProject}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 "
+          aria-label="Next project"
+        >
+          <span className="bx--right-arrow dark:bg-white bg-neutral-700 transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
+        </button>
+      </div>
+    </section>
   );
 }

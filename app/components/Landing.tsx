@@ -129,80 +129,80 @@ export default function Landing() {
               <div className="w-20 h-1 dark:bg-white bg-neutral-600 rounded mt-2 mb-4"></div>
               <div className="flex flex-wrap flex-row items-center justify-center px-5 py-5">
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="skill-icons--javascript"></span>
+                  <span className="skill-icons--javascript w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     JavaScript
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="skill-icons--typescript"></span>
+                  <span className="skill-icons--typescript w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     TypeScript
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="devicon--tailwindcss"></span>
+                  <span className="devicon--tailwindcss w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Tailwindcss
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="devicon--react logo"></span>
+                  <span className="devicon--react logo w-8 h-8"></span>
                   <span className="text-[10px] font-normal dark:text-white glow-effect-blue">
                     React
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="logos--nextjs-icon"></span>
+                  <span className="logos--nextjs-icon w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Next.js
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="logos--nodejs-icon"></span>
+                  <span className="logos--nodejs-icon w-7 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Node.js
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="logos--strapi-icon"></span>
+                  <span className="logos--strapi-icon w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Strapi.js
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="devicon--php"></span>
+                  <span className="devicon--php w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     php
                   </span>
                 </div>
 
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="logos--supabase-icon"></span>
+                  <span className="logos--supabase-icon w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Supabase
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="devicon--mysql"></span>
+                  <span className="devicon--mysql w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     MySQL
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="devicon--mongodb"></span>
+                  <span className="devicon--mongodb w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     MongoDB
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="vscode-icons--file-type-playwright"></span>
+                  <span className="vscode-icons--file-type-playwright w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Playwright
                   </span>
                 </div>
                 <div className="flex flex-col items-center pr-3 pt-2">
-                  <span className="logos--bash-icon"></span>
+                  <span className="logos--bash-icon w-7 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Bash
                   </span>
