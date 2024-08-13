@@ -1,5 +1,6 @@
 import { ThemeProvider } from './context/ThemeProvider';
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 import { AuroraBackground } from './components/ui/AuroraBackground';
 import { Kameron } from 'next/font/google';
 import './globals.css';
@@ -33,6 +34,7 @@ export default function RootLayout({
         <ThemeProvider>
           <AuroraBackground className="flex-grow flex flex-col">
             <main className="flex-grow flex flex-col">{children}</main>
+            <Analytics />
           </AuroraBackground>
         </ThemeProvider>
       </body>
