@@ -38,6 +38,7 @@ export default function Landing() {
                       target="_blank"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://www.linkedin.com/in/liban-osman-losmandev/"
+                      aria-label="linkedin link"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -56,6 +57,7 @@ export default function Landing() {
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://github.com/LosmanDev"
                       target="_blank"
+                      aria-label="github link"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +76,7 @@ export default function Landing() {
                       target="_blank"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://x.com/LosmanDev"
+                      aria-label="X/Twitter link"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -92,6 +95,7 @@ export default function Landing() {
                       target="_blank"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://drive.google.com/file/d/1fY9heohNnm1e8ddBIPOdLmcZKfyI9-Jm/view?usp=sharing"
+                      aria-label="resume link"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +129,9 @@ export default function Landing() {
               </div>
             </div>
             <div className="flex flex-col mt-5">
-              <h1 className="dark:text-white font-bold text-2xl">Skills</h1>
+              <h1 className="dark:text-white font-bold text-2xl pt-10">
+                Skills
+              </h1>
               <div className="w-20 h-1 dark:bg-white bg-neutral-600 rounded mt-2 mb-4"></div>
               <div className="flex flex-wrap flex-row items-center justify-center px-5 py-5">
                 <div className="flex flex-col items-center pr-3 pt-2">

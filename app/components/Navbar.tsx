@@ -40,6 +40,7 @@ export const Navbar = ({
         </Link>
       ))}
       <button
+        aria-label="night mode or light mode toggle"
         onClick={toggleTheme}
         className="border text-sm font-medium relative border-neutral-400 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
       >

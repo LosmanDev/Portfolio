@@ -236,7 +236,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="container px-5 lg:w-4/6 mx-auto">
-      <h1 className="text-neutral-600 dark:text-white font-bold text-2xl">
+      <h1 className="text-neutral-600 dark:text-white font-bold text-2xl pt-10">
         Projects
       </h1>
       <div className="w-20 h-1 shadow-projects dark:bg-white bg-neutral-600 rounded mt-2 mb-4 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"></div>
@@ -297,7 +297,7 @@ export default function Projects() {
                     as={Link}
                     href={projects[currentIndex].visit}
                     target="_blank"
-                    className="px-4 py-2 rounded-xl bg-neutral-600 dark:bg-white dark:text-black text-white text-xs font-bold"
+                    className="px-4 py-2 rounded-xl border border-neutral-600 dark:border-white dark:text-white text-neutral-600 text-xs font-bold  hover:bg-neutral-600 hover:text-white transition-all duration-300"
                   >
                     Visit
                   </CardItem>
@@ -309,17 +309,17 @@ export default function Projects() {
 
         <button
           onClick={prevProject}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 "
+          className="absolute sm:left-[87px] left-[-23px] top-[30%] transform -translate-y-1/2 z-10 "
           aria-label="Previous project"
         >
-          <span className="bx--left-arrow dark:bg-white bg-neutral-700 transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
+          <span className="bxs--left-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
         </button>
         <button
           onClick={nextProject}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 "
+          className="absolute sm:right-[87px] right-[-23px] top-[30%] transform -translate-y-1/2 z-10 "
           aria-label="Next project"
         >
-          <span className="bx--right-arrow dark:bg-white bg-neutral-700 transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
+          <span className="bxs--right-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
         </button>
       </div>
     </section>

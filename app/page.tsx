@@ -2,6 +2,7 @@ import Landing from './components/Landing';
 import { Navbar } from './components/Navbar';
 import { TracingBeam } from './components/ui/tracing-beam';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function Home() {
@@ -12,13 +13,14 @@ export default function Home() {
           navItems={[
             { name: 'Home', link: '/' },
             { name: 'Projects', link: '#projects' },
-            { name: 'Contact', link: '/contact' },
+            { name: 'Contact', link: '#contact' },
           ]}
         />
         <main className="flex-grow">
           <TracingBeam className="px-6">
             <Landing />
             <Projects />
+            <Contact />
           </TracingBeam>
           <Footer />
         </main>
