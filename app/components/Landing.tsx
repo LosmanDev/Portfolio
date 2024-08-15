@@ -98,22 +98,18 @@ export default function Landing() {
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l dark:border-white border-neutral-600 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <HoverBorderGradient>
                   <p className="sm:text-base font-normal text-xs mt-4 p-4 dark:text-white">
-                    <span data-aos="fade-down" data-aos-delay="400">
+                    <span data-aos="fade-down" data-aos-delay="200">
                       I'm a highly motivated IT professional with experience
-                      building innovative web applications.
-                    </span>
-                    <span data-aos="fade-down" data-aos-delay="600">
-                      Skilled in crafting user-friendly interfaces with HTML5,
-                      CSS3, JavaScript (ES6+), TypeScript, and React/Nextjs.
-                    </span>
-                    <span data-aos="fade-down" data-aos-delay="800">
+                      building innovative web applications. Skilled in crafting
+                      user-friendly interfaces with HTML5, CSS3, JavaScript
+                      (ES6+), TypeScript, and React/Nextjs.
+                    </span>{' '}
+                    <span data-aos="fade-down" data-aos-delay="400">
                       Adept at building robust backend logic and APIs using
                       Node.js, Next.js(SSR, SSG, API Routes) PHP, PostgreSQL,
-                      MySQL, MongoDB and RESTful principles.
-                    </span>
-                    <span data-aos="fade-down" data-aos-delay="1000">
-                      Proven ability to solve complex technical challenges and
-                      delivering high-quality solutions.
+                      MySQL, MongoDB and RESTful principles. Proven ability to
+                      solve complex technical challenges and delivering
+                      high-quality solutions.
                     </span>
                   </p>
                 </HoverBorderGradient>
