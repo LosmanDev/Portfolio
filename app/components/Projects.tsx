@@ -236,10 +236,18 @@ export default function Projects() {
 
   return (
     <section id="projects" className="container px-5 lg:w-4/6 mx-auto">
-      <h1 className="text-neutral-600 dark:text-white font-bold text-2xl pt-10">
+      <h1
+        data-aos="fade-down"
+        data-aos-delay="200"
+        className="text-neutral-600 dark:text-white font-bold text-2xl pt-10"
+      >
         Projects
       </h1>
-      <div className="w-20 h-1 shadow-projects dark:bg-white bg-neutral-600 rounded mt-2 mb-4 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"></div>
+      <div
+        data-aos="fade-right"
+        data-aos-delay="250"
+        className="w-20 h-1 shadow-projects dark:bg-white bg-neutral-600 rounded mt-2 mb-4 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+      ></div>
 
       <div className="relative h-[600px]">
         <AnimatePresence initial={false}>
@@ -254,13 +262,20 @@ export default function Projects() {
             <CardContainer className="inter-var shadow-projects rounded-xl">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                 <CardItem
+                  data-aos="fade"
+                  data-aos-delay="200"
                   translateZ="50"
                   className="text-center text-xl font-bold text-neutral-600 dark:text-white"
                 >
                   {projects[currentIndex].title}
                 </CardItem>
 
-                <CardItem translateZ="100" className="w-full mt-4">
+                <CardItem
+                  data-aos="fade"
+                  data-aos-delay="400"
+                  translateZ="100"
+                  className="w-full mt-4"
+                >
                   <Image
                     src={projects[currentIndex].image}
                     className="w-full object-contain object-center rounded group-hover/card:shadow-xl"
@@ -268,6 +283,8 @@ export default function Projects() {
                   />
                 </CardItem>
                 <CardItem
+                  data-aos="fade"
+                  data-aos-delay="600"
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-8 dark:text-neutral-300"
@@ -276,9 +293,14 @@ export default function Projects() {
                 </CardItem>
                 {projects[currentIndex].techStack && (
                   <CardItem
+                    data-aos="fade"
+                    data-aos-delay="800"
                     translateZ="60"
-                    className="mt-2 flex flex-row justify-center items-center"
+                    className="mt-4 flex flex-row justify-center items-center"
                   >
+                    <span className="font-thin italic mr-2 text-xs text-neutral-500  dark:text-neutral-300">
+                      Built with:
+                    </span>
                     {projects[currentIndex].techStack}
                   </CardItem>
                 )}

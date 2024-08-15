@@ -1,5 +1,4 @@
 'use client';
-
 import { useEffect } from 'react';
 import { motion, useMotionValue, useTransform, animate } from 'framer-motion';
 
@@ -59,7 +58,11 @@ export default function TypingEffect() {
   }, []);
 
   return (
-    <div className="inline-flex items-center">
+    <div
+      data-aos="fade"
+      data-aos-delay="300"
+      className="inline-flex items-center"
+    >
       <motion.h1 className="font-medium title-font mt-4 dark:text-white text-lg flex items-center">
         <motion.span className="mt-1 min-h-[1.7em] inline-block align-bottom">
           {displayText}
