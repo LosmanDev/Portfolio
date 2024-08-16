@@ -252,12 +252,12 @@ export default function Landing() {
                 </div>
                 <div
                   data-aos="fade-right"
-                  data-aos-delay="900"
+                  data-aos-delay="850"
                   className="flex flex-col items-center pr-3 pt-2"
                 >
-                  <span className="logos--bash-icon w-7 h-8"></span>
+                  <span className="devicon--git w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
-                    Bash
+                    git
                   </span>
                 </div>
               </div>

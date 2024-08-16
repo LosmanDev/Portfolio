@@ -296,15 +296,15 @@ export default function Projects() {
                     data-aos="fade"
                     data-aos-delay="800"
                     translateZ="60"
-                    className="mt-4 flex flex-row justify-center items-center"
+                    className="mt-10 flex flex-row justify-center items-center"
                   >
-                    <span className="font-thin italic mr-2 text-xs text-neutral-500  dark:text-neutral-300">
+                    <span className="font-extralight italic mr-2 text-xs text-neutral-500  dark:text-neutral-300">
                       Built with:
                     </span>
                     {projects[currentIndex].techStack}
                   </CardItem>
                 )}
-                <div className="flex justify-between items-center mt-20">
+                <div className="flex justify-between items-center mt-10">
                   <CardItem
                     translateZ={20}
                     as={Link}
@@ -331,17 +331,17 @@ export default function Projects() {
 
         <button
           onClick={prevProject}
-          className="absolute sm:left-[87px] left-[-23px] top-[30%] transform -translate-y-1/2 z-10 "
+          className="absolute sm:left-[87px] left-[-50px] top-[37%] transform -translate-y-1/2 z-10 group p-10"
           aria-label="Previous project"
         >
-          <span className="bxs--left-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
+          <span className="bxs--left-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
         </button>
         <button
           onClick={nextProject}
-          className="absolute sm:right-[87px] right-[-23px] top-[30%] transform -translate-y-1/2 z-10 "
+          className="absolute sm:right-[87px] right-[-50px] top-[37%] transform -translate-y-1/2 z-10 group p-10 "
           aria-label="Next project"
         >
-          <span className="bxs--right-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"></span>
+          <span className="bxs--right-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
         </button>
       </div>
     </section>

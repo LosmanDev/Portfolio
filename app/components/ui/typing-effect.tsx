@@ -21,8 +21,8 @@ export default function TypingEffect() {
     'Full Stack Developer',
     'Web Developer',
     'Software Engineer',
-    'Front-End Developer',
-    'Back-End Developer',
+    'Frontend Developer',
+    'Backend Developer',
     'IT Support',
   ];
   const baseText = useTransform(textIndex, (latest) => texts[latest] || '');

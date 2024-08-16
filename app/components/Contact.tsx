@@ -20,6 +20,12 @@ export default function Contact() {
           data-aos-delay="250"
           className="relative w-full mb-4"
         >
+          <a href="mailto:Losmandev@gmail.com">
+            <h1 className="text-center font-medium italic pl-1  text-neutral-600 dark:text-white flex items-center">
+              <span className="ic--baseline-mail mb-1 w-4 h-4 dark:bg-white bg-neutral-600"></span>
+              Email: Losmandev@gmail.com
+            </h1>
+          </a>
           <label
             htmlFor="email"
             className="leading-7 text-sm dark:text-white text-neutral-600"
