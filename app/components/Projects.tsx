@@ -19,7 +19,6 @@ import halal from '../../public/assets/projects/halal.webp';
 
 export default function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
   const projects = [
     {
       title: 'Behind the Cutz',
@@ -30,10 +29,22 @@ export default function Projects() {
       visit: 'https://behindthecutz.vercel.app/',
       techStack: (
         <>
-          <span className="logos--nextjs-icon  w-4 h-4 mr-1"></span>
-          <span className="devicon--react logo w-4 h-4 mr-1"></span>
-          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
-          <span className="logos--supabase-icon w-3 h-4 n mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Next.js</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--react logo w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">React</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Tailwindcss</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--supabase-icon w-2 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Supabase</span>
+          </div>
         </>
       ),
     },
@@ -46,9 +57,18 @@ export default function Projects() {
       visit: 'https://waldorefugee.org/',
       techStack: (
         <>
-          <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
-          <span className="devicon--react logo w-4 h-4 mr-1"></span>
-          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Next.js</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--react logo w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">React</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Tailwindcss</span>
+          </div>
         </>
       ),
     },
@@ -62,12 +82,30 @@ export default function Projects() {
       visit: 'https://techdive6.onrender.com/',
       techStack: (
         <>
-          <span className="logos--semantic-ui rounded-sm w-4 h-4 mr-1"></span>
-          <span className="simple-icons--mui w-4 h-4  mr-1"></span>
-          <span className="vscode-icons--file-type-styled w-4 h-4 mr-1"></span>
-          <span className="devicon--react logo w-4 h-4 mr-1"></span>
-          <span className="logos--nodejs-icon w-4 h-4"></span>
-          <span className="devicon--mongodb w-4 h-4"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--semantic-ui rounded-sm w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Semantic UI</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="simple-icons--mui w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">MUI</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="vscode-icons--file-type-styled w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Styled Components</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--react logo w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">React</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--nodejs-icon w-4 h-4"></span>
+            <span className="text-[7px] text-center">Node.js</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--mongodb w-4 h-4"></span>
+            <span className="text-[7px] text-center">MongoDB</span>
+          </div>
         </>
       ),
     },
@@ -81,9 +119,18 @@ export default function Projects() {
       visit: 'https://masjid-at-taqwa.vercel.app/',
       techStack: (
         <>
-          <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
-          <span className="devicon--react logo w-4 h-4 mr-1"></span>
-          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Next.js</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--react logo w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">React</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Tailwindcss</span>
+          </div>
         </>
       ),
     },
@@ -96,10 +143,22 @@ export default function Projects() {
       visit: 'https://1andonlystaffingllc.com/',
       techStack: (
         <>
-          <span className="skill-icons--html w-4 h-4 mr-1"></span>
-          <span className="skill-icons--css w-4 h-4 mr-1"></span>
-          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
-          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--html w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">HTML</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--css w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">CSS</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+            <span className="text-[7px] text-center">Bootstrap</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">JavaScript</span>
+          </div>
         </>
       ),
     },
@@ -112,9 +171,18 @@ export default function Projects() {
       visit: 'https://boyahjfarah.vercel.app/',
       techStack: (
         <>
-          <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
-          <span className="devicon--react logo w-4 h-4 mr-1"></span>
-          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Next.js</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--react logo w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">React</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Tailwindcss</span>
+          </div>
         </>
       ),
     },
@@ -128,9 +196,18 @@ export default function Projects() {
       visit: 'https://crypto-suuq.netlify.app/',
       techStack: (
         <>
-          <span className="devicon--react logo w-4 h-4 mr-1"></span>
-          <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
-          <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--react logo w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">React</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Tailwindcss</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white pr-2 pt-2"></span>
+            <span className="text-[7px] text-center">API</span>
+          </div>
         </>
       ),
     },
@@ -144,11 +221,26 @@ export default function Projects() {
       visit: 'https://losmandev.github.io/Github-Person-Finder/',
       techStack: (
         <>
-          <span className="skill-icons--html w-4 h-4 mr-1"></span>
-          <span className="skill-icons--css w-4 h-4 mr-1"></span>
-          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
-          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
-          <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--html w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">HTML</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--css w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">CSS</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+            <span className="text-[7px] text-center">Bootstrap</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">JavaScript</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white"></span>
+            <span className="text-[7px] text-center">API</span>
+          </div>
         </>
       ),
     },
@@ -162,10 +254,22 @@ export default function Projects() {
       visit: 'https://losmandev.github.io/TD-Garden-Clone/',
       techStack: (
         <>
-          <span className="skill-icons--html w-4 h-4 mr-1"></span>
-          <span className="skill-icons--css w-4 h-4 mr-1"></span>
-          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
-          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--html w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">HTML</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--css w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">CSS</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+            <span className="text-[7px] text-center">Bootstrap</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">JavaScript</span>
+          </div>
         </>
       ),
     },
@@ -175,16 +279,30 @@ export default function Projects() {
         "Explore a daily showcase of exceptional images from 1995 to the present, captured through NASA's API.",
       image: nasa,
       alt: 'NASA Photo of the day.',
-
       link: 'https://github.com/LosmanDev/NASA-Photo-API',
       visit: 'https://losmandev.github.io/NASA-Photo-API/',
       techStack: (
         <>
-          <span className="skill-icons--html w-4 h-4 mr-1"></span>
-          <span className="skill-icons--css w-4 h-4 mr-1"></span>
-          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
-          <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
-          <span className="icon-park-twotone--api w-4 h-4 mr-1 dark:bg-white"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--html w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">HTML</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--css w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">CSS</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+            <span className="text-[7px] text-center">Bootstrap</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--javascript w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">JavaScript</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="icon-park-twotone--api w-4 h-4 dark:bg-white pr-2 pt-2"></span>
+            <span className="text-[7px] text-center">API</span>
+          </div>
         </>
       ),
     },
@@ -198,10 +316,22 @@ export default function Projects() {
       visit: 'https://losmandev.github.io/Nomad-Energy/',
       techStack: (
         <>
-          <span className="skill-icons--html w-4 h-4 mr-1"></span>
-          <span className="skill-icons--css w-4 h-4 mr-1"></span>
-          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
-          <span className="devicon--jquery w-4 h-4 mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--html w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">HTML</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--css w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">CSS</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+            <span className="text-[7px] text-center">Bootstrap</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--jquery w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">jQuery</span>
+          </div>
         </>
       ),
     },
@@ -215,10 +345,22 @@ export default function Projects() {
       visit: 'https://losmandev.github.io/HalalMeatExpress/',
       techStack: (
         <>
-          <span className="skill-icons--html w-4 h-4 mr-1"></span>
-          <span className="skill-icons--css w-4 h-4 mr-1"></span>
-          <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
-          <span className="devicon--jquery w-4 h-4 mr-1"></span>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--html w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">HTML</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="skill-icons--css w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">CSS</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--bootstrap w-5 h-5 mr-1"></span>
+            <span className="text-[7px] text-center">Bootstrap</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--jquery w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">jQuery</span>
+          </div>
         </>
       ),
     },
@@ -298,7 +440,7 @@ export default function Projects() {
                     translateZ="60"
                     className="mt-10 flex flex-row justify-center items-center"
                   >
-                    <span className="font-extralight italic mr-2 text-xs text-neutral-500  dark:text-neutral-300">
+                    <span className="font-extralight italic mr-1 text-xs text-neutral-500  dark:text-neutral-300">
                       Built with:
                     </span>
                     {projects[currentIndex].techStack}
@@ -319,7 +461,7 @@ export default function Projects() {
                     as={Link}
                     href={projects[currentIndex].visit}
                     target="_blank"
-                    className="px-4 py-2 rounded-xl border border-neutral-600 dark:border-white dark:text-white text-neutral-600 text-xs font-bold  hover:bg-neutral-600 hover:text-white transition-all duration-300"
+                    className="px-4 py-2 rounded-xl border border-neutral-600 dark:border-white dark:text-white text-neutral-600 text-xs font-bold  hover:bg-neutral-600 hover:text-white pr-2 pt-2 transition-all duration-300"
                   >
                     Visit
                   </CardItem>
@@ -330,18 +472,20 @@ export default function Projects() {
         </AnimatePresence>
 
         <button
+          data-aos="zoom-in"
           onClick={prevProject}
-          className="absolute sm:left-[87px] left-[-50px] top-[37%] transform -translate-y-1/2 z-10 group p-10"
+          className="absolute sm:left-[87px] left-[-50px] sm:top-[37%] top-[29%] transform -translate-y-1/2 z-10 group p-10"
           aria-label="Previous project"
         >
-          <span className="bxs--left-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
+          <span className="solar--alt-arrow-left-bold-duotone  bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
         </button>
         <button
+          data-aos="zoom-in"
           onClick={nextProject}
-          className="absolute sm:right-[87px] right-[-50px] top-[37%] transform -translate-y-1/2 z-10 group p-10 "
+          className="absolute sm:right-[87px] right-[-50px] sm:top-[37%] top-[29%] transform -translate-y-1/2 z-10 group p-10 "
           aria-label="Next project"
         >
-          <span className="bxs--right-arrow bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
+          <span className="solar--alt-arrow-right-bold-duotone bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
         </button>
       </div>
     </section>
