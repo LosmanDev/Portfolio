@@ -17,7 +17,7 @@ export const AuroraBackground = ({
     <main className="min-h-screen">
       <div
         className={cn(
-          ' bg-zinc-50 dark:bg-zinc-900  text-slate-950 transition-bg',
+          ' bg-zinc-100 dark:bg-zinc-900  text-slate-950 transition-bg',
           className,
         )}
         {...props}

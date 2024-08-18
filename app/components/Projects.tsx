@@ -438,7 +438,7 @@ export default function Projects() {
                     data-aos="fade"
                     data-aos-delay="800"
                     translateZ="60"
-                    className="mt-10 flex flex-row justify-center items-center"
+                    className="mt-10 flex flex-row justify-center items-baseline"
                   >
                     <span className="font-extralight italic mr-1 text-xs text-neutral-500  dark:text-neutral-300">
                       Built with:
@@ -472,7 +472,7 @@ export default function Projects() {
         </AnimatePresence>
 
         <button
-          data-aos="zoom-in"
+          data-aos="fade-down"
           onClick={prevProject}
           className="absolute sm:left-[87px] left-[-50px] sm:top-[37%] top-[29%] transform -translate-y-1/2 z-10 group p-10"
           aria-label="Previous project"
@@ -480,7 +480,7 @@ export default function Projects() {
           <span className="solar--alt-arrow-left-bold-duotone  bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
         </button>
         <button
-          data-aos="zoom-in"
+          data-aos="fade-down"
           onClick={nextProject}
           className="absolute sm:right-[87px] right-[-50px] sm:top-[37%] top-[29%] transform -translate-y-1/2 z-10 group p-10 "
           aria-label="Next project"
