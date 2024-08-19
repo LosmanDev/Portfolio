@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <section id="contact" className="container px-5 lg:w-4/6 mx-auto pb-20">
+    <section
+      id="contact"
+      className="container px-5 lg:w-4/6 mx-auto pb-20 pt-32"
+    >
       <h1
         data-aos="fade-down"
         data-aos-delay="200"

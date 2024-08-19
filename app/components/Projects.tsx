@@ -438,9 +438,9 @@ export default function Projects() {
                     data-aos="fade"
                     data-aos-delay="800"
                     translateZ="60"
-                    className="mt-10 flex flex-row justify-center items-baseline"
+                    className="mt-10 flex flex-row justify-center items-end"
                   >
-                    <span className="font-extralight italic mr-1 text-xs text-neutral-500  dark:text-neutral-300">
+                    <span className="font-extralight italic mr-2 text-xs text-neutral-500  dark:text-neutral-300">
                       Built with:
                     </span>
                     {projects[currentIndex].techStack}
