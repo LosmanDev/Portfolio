@@ -53,44 +53,52 @@ export default function Landing() {
                   ></div>
                   <div className="flex flex-row items-center gap-1">
                     <a
-                      data-aos="fade-right"
-                      data-aos-delay="500"
                       target="_blank"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://www.linkedin.com/in/liban-osman-losmandev/"
                       aria-label="linkedin link"
                     >
-                      <span className="akar-icons--linkedinv1-fill w-6 h-6 dark:bg-white"></span>
+                      <span
+                        data-aos="fade-right"
+                        data-aos-delay="500"
+                        className="akar-icons--linkedinv1-fill w-6 h-6 dark:bg-white"
+                      ></span>
                     </a>
                     <a
-                      data-aos="fade-right"
-                      data-aos-delay="600"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://github.com/LosmanDev"
                       target="_blank"
                       aria-label="github link"
                     >
-                      <span className="fa-brands--github-square w-6 h-6 dark:bg-white"></span>
+                      <span
+                        data-aos="fade-right"
+                        data-aos-delay="600"
+                        className="fa-brands--github-square w-6 h-6 dark:bg-white"
+                      ></span>
                     </a>
                     <a
-                      data-aos="fade-right"
-                      data-aos-delay="700"
                       target="_blank"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://x.com/LosmanDev"
                       aria-label="X/Twitter link"
                     >
-                      <span className="fa6-brands--square-x-twitter w-6 h-6 dark:bg-white"></span>
+                      <span
+                        data-aos="fade-right"
+                        data-aos-delay="700"
+                        className="fa6-brands--square-x-twitter w-6 h-6 dark:bg-white"
+                      ></span>
                     </a>
                     <a
-                      data-aos="fade-right"
-                      data-aos-delay="800"
                       target="_blank"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://drive.google.com/file/d/1fY9heohNnm1e8ddBIPOdLmcZKfyI9-Jm/view?usp=sharing"
                       aria-label="resume link"
                     >
-                      <span className="material-symbols-light--picture-as-pdf-rounded w-8 h-8 dark:bg-white"></span>
+                      <span
+                        data-aos="fade-right"
+                        data-aos-delay="800"
+                        className="material-symbols-light--picture-as-pdf-rounded w-8 h-8 dark:bg-white"
+                      ></span>
                     </a>
                   </div>
                 </div>
