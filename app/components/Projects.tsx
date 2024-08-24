@@ -416,7 +416,7 @@ export default function Projects() {
                   data-aos="fade"
                   data-aos-delay="400"
                   translateZ="100"
-                  className="w-full mt-4"
+                  className="w-full mt-4 mb-5"
                 >
                   <Image
                     src={projects[currentIndex].image}
@@ -429,7 +429,7 @@ export default function Projects() {
                   data-aos-delay="600"
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-8 dark:text-neutral-300"
+                  className="mb-5 text-neutral-500 text-sm max-w-sm dark:text-neutral-300"
                 >
                   {projects[currentIndex].description}
                 </CardItem>
@@ -438,30 +438,27 @@ export default function Projects() {
                     data-aos="fade"
                     data-aos-delay="800"
                     translateZ="60"
-                    className="mt-10 flex flex-row justify-center items-end"
+                    className="mb-5 flex flex-row justify-center items-end"
                   >
-                    <span className="font-extralight italic mr-2 text-xs text-neutral-500  dark:text-neutral-300">
-                      Built with:
-                    </span>
                     {projects[currentIndex].techStack}
                   </CardItem>
                 )}
-                <div className="flex justify-between items-center mt-10">
+                <div className="flex justify-between items-center mt-5">
                   <CardItem
                     translateZ={20}
                     as={Link}
                     href={projects[currentIndex].link}
                     target="_blank"
-                    className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                    className="text-center px-4 py-2 rounded-xl border border-neutral-600 dark:border-white dark:text-white text-neutral-600 text-xs font-bold  hover:bg-neutral-600 hover:text-white pt-2 transition-all duration-300"
                   >
-                    Code →
+                    Code
                   </CardItem>
                   <CardItem
                     translateZ={20}
                     as={Link}
                     href={projects[currentIndex].visit}
                     target="_blank"
-                    className="px-4 py-2 rounded-xl border border-neutral-600 dark:border-white dark:text-white text-neutral-600 text-xs font-bold  hover:bg-neutral-600 hover:text-white pr-2 pt-2 transition-all duration-300"
+                    className="text-center px-4 py-2 rounded-xl border border-neutral-600 dark:border-white dark:text-white text-neutral-600 text-xs font-bold  hover:bg-neutral-600 hover:text-white pt-2 transition-all duration-300"
                   >
                     Visit
                   </CardItem>
