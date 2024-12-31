@@ -485,6 +485,13 @@ export default function Projects() {
           <span className="solar--alt-arrow-right-bold-duotone bg-[linear-gradient(to_right,#3B82F6,#A5B4FC,#93C5FD,#DDD6FE,#60A5FA)] transition duration-300 ease-in-out transform group-hover:scale-150 group-active:scale-90"></span>
         </button>
       </div>
+
+      <div data-aos="fade-right" className="text-center">
+        <h1 className="text-center text-xl font-bold text-neutral-600 dark:text-white">
+          If you have any inquiries or would like to get in touch, please fill
+          out the form below or email me directly!
+        </h1>
+      </div>
     </section>
   );
 }
