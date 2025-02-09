@@ -16,6 +16,7 @@ import td from '../../public/assets/projects/TD.webp';
 import nasa from '../../public/assets/projects/NASA.webp';
 import nomad from '../../public/assets/projects/nomad.webp';
 import halal from '../../public/assets/projects/halal.webp';
+import pledge from '../../public/assets/projects/pledge.webp';
 
 export default function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -68,6 +69,35 @@ export default function Projects() {
           <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
             <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
             <span className="text-[7px] text-center">Tailwindcss</span>
+          </div>
+        </>
+      ),
+    },
+    {
+      title: 'Pledge Your Region',
+      description:
+        'Somali Based Campaign Project Representing different regions in Somalia.',
+      image: pledge,
+      alt: 'Somali Based Campaign Project Representing Regions.',
+      link: 'https://github.com/LosmanDev/Pledge',
+      visit: 'https://pledge-region.vercel.app/',
+      techStack: (
+        <>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--nextjs-icon w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Next.js</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--react logo w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">React</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="devicon--tailwindcss w-4 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Tailwindcss</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-neutral-600 dark:text-white pr-2 pt-2">
+            <span className="logos--supabase-icon w-2 h-4 mr-1"></span>
+            <span className="text-[7px] text-center">Supabase</span>
           </div>
         </>
       ),

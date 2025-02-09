@@ -18,12 +18,13 @@ const cursorVariants = {
 export default function TypingEffect() {
   const textIndex = useMotionValue(0);
   const texts = [
-    'Full Stack Developer',
+    'IT Professional',
     'Web Developer',
-    'Software Engineer',
+    'PowerShell Automation',
     'Frontend Developer',
     'Backend Developer',
-    'IT Support',
+    'IT Administration',
+    'Cloud & Devops',
   ];
   const baseText = useTransform(textIndex, (latest) => texts[latest] || '');
   const count = useMotionValue(0);

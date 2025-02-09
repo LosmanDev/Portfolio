@@ -108,7 +108,7 @@ export default function Landing() {
                   <p
                     data-aos="fade"
                     data-aos-delay="200"
-                    className="sm:text-base font-normal text-xs mt-4 p-4 dark:text-white"
+                    className="sm:text-base font-normal tracking-wider text-xs mt-4 p-4 dark:text-white"
                   >
                     I'm a highly motivated IT professional with experience
                     building innovative web applications. Skilled in crafting
@@ -116,8 +116,12 @@ export default function Landing() {
                     (ES6+), TypeScript, and React/Nextjs. Adept at building
                     robust backend logic and APIs using Node.js, Next.js(SSR,
                     SSG, API Routes) PHP, PostgreSQL, MySQL, MongoDB and RESTful
-                    principles. Proven ability to solve complex technical
-                    challenges and delivering high-quality solutions.
+                    principles. My expertise includes PowerShell scripting for
+                    automation in Office 365 administration, Azure,
+                    virtualization, and Windows server management. With a proven
+                    track record of solving complex technical challenges, I
+                    deliver high-quality, scalable solutions tailored to
+                    business needs.
                   </p>
                 </HoverBorderGradient>
               </div>
