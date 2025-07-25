@@ -202,25 +202,14 @@ export default function Landing() {
                 </div>
                 <div
                   data-aos="fade-right"
-                  data-aos-delay="600"
+                  data-aos-delay="850"
                   className="flex flex-col items-center pr-3 pt-2"
                 >
-                  <span className="logos--strapi-icon w-8 h-8"></span>
+                  <span className="dark:logos--payload simple-icons--payloadcms w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
-                    Strapi.js
+                    Payload CMS
                   </span>
                 </div>
-                <div
-                  data-aos="fade-right"
-                  data-aos-delay="650"
-                  className="flex flex-col items-center pr-3 pt-2"
-                >
-                  <span className="devicon--php w-8 h-8"></span>
-                  <span className="text-[10px] dark:text-white font-normal">
-                    php
-                  </span>
-                </div>
-
                 <div
                   data-aos="fade-right"
                   data-aos-delay="700"
@@ -229,16 +218,6 @@ export default function Landing() {
                   <span className="logos--supabase-icon w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     Supabase
-                  </span>
-                </div>
-                <div
-                  data-aos="fade-right"
-                  data-aos-delay="750"
-                  className="flex flex-col items-center pr-3 pt-2"
-                >
-                  <span className="devicon--mysql w-8 h-8"></span>
-                  <span className="text-[10px] dark:text-white font-normal">
-                    MySQL
                   </span>
                 </div>
                 <div
@@ -269,6 +248,26 @@ export default function Landing() {
                   <span className="devicon--git w-8 h-8"></span>
                   <span className="text-[10px] dark:text-white font-normal">
                     git
+                  </span>
+                </div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="850"
+                  className="flex flex-col items-center pr-3 pt-2"
+                >
+                  <span className="vscode-icons--file-type-powershell w-8 h-8"></span>
+                  <span className="text-[10px] dark:text-white font-normal">
+                    PowerShell
+                  </span>
+                </div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="850"
+                  className="flex flex-col items-center pr-3 pt-2"
+                >
+                  <span className="material-icon-theme--azure w-8 h-8"></span>
+                  <span className="text-[10px] dark:text-white font-normal">
+                    Azure
                   </span>
                 </div>
               </div>
