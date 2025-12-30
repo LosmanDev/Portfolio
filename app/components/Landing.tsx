@@ -110,18 +110,20 @@ export default function Landing() {
                     data-aos-delay="200"
                     className="sm:text-base font-normal tracking-wider text-xs mt-4 p-4 dark:text-white"
                   >
-                    I'm a highly motivated IT professional with experience
-                    building innovative web applications. Skilled in crafting
+                    I'm a highly motivated professional with experience building
+                    innovative web applications. Skilled in crafting
                     user-friendly interfaces with HTML5, CSS3, JavaScript
                     (ES6+), TypeScript, and React/Nextjs. Adept at building
                     robust backend logic and APIs using Node.js, Next.js(SSR,
-                    SSG, API Routes) PHP, PostgreSQL, MySQL, MongoDB and RESTful
-                    principles. My expertise includes PowerShell scripting for
-                    automation in Office 365 administration, Azure,
-                    virtualization, and Windows server management. With a proven
-                    track record of solving complex technical challenges, I
-                    deliver high-quality, scalable solutions tailored to
-                    business needs.
+                    SSG, API Routes), PostgreSQL, MySQL, MongoDB and RESTful
+                    principles. A core focus of my practice is developing
+                    foundational PowerShell scripts to accelerate
+                    troubleshooting workflows, analyze logs, automate
+                    on/offboarding and routine administrative tasks with the
+                    goal of improving service delivery and operational
+                    consistency across IT environments. With a proven track
+                    record of solving complex technical challenges, I deliver
+                    high-quality, scalable solutions tailored to business needs.
                   </p>
                 </HoverBorderGradient>
               </div>
