@@ -116,14 +116,7 @@ export default function Landing() {
                     (ES6+), TypeScript, and React/Nextjs. Adept at building
                     robust backend logic and APIs using Node.js, Next.js(SSR,
                     SSG, API Routes), PostgreSQL, MySQL, MongoDB and RESTful
-                    principles. A core focus of my practice is developing
-                    foundational PowerShell scripts to accelerate
-                    troubleshooting workflows, analyze logs, automate
-                    on/offboarding and routine administrative tasks with the
-                    goal of improving service delivery and operational
-                    consistency across IT environments. With a proven track
-                    record of solving complex technical challenges, I deliver
-                    high-quality, scalable solutions tailored to business needs.
+                    principles. A core focus of my practice is developing foundational PowerShell scripts to accelerate troubleshooting workflows, analyzing logs, automating user lifecycle management and routine administrative tasks with the goal of improving service delivery and operational consistency across IT environments.
                   </p>
                 </HoverBorderGradient>
               </div>
