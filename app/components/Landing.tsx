@@ -110,7 +110,7 @@ export default function Landing() {
                     data-aos-delay="200"
                     className="sm:text-base font-normal tracking-wider text-xs mt-4 p-4 dark:text-white"
                   >
-                    I'm a highly motivated professional with experience building
+                    I'm a highly motivated IT professional with experience building
                     innovative web applications. Skilled in crafting
                     user-friendly interfaces with HTML5, CSS3, JavaScript
                     (ES6+), TypeScript, and React/Nextjs. Adept at building
