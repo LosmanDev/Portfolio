@@ -79,18 +79,6 @@ export default function Landing() {
                     <a
                       target="_blank"
                       className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
-                      href="https://x.com/LosmanDev"
-                      aria-label="X/Twitter link"
-                    >
-                      <span
-                        data-aos="fade-right"
-                        data-aos-delay="700"
-                        className="fa6-brands--square-x-twitter w-6 h-6 dark:bg-white"
-                      ></span>
-                    </a>
-                    <a
-                      target="_blank"
-                      className="transition duration-300 ease-in-out transform hover:scale-150 active:scale-90"
                       href="https://drive.google.com/file/d/1fY9heohNnm1e8ddBIPOdLmcZKfyI9-Jm/view?usp=sharing"
                       aria-label="resume link"
                     >
